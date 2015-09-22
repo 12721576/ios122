@@ -22,7 +22,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    self.window.rootViewController = [[YFHomeViewController alloc]init];
+   YFHomeViewController * homeVC =  [[YFHomeViewController alloc]init];
+    
+    UINavigationController * navVC = [[UINavigationController alloc] initWithRootViewController:homeVC];
+    
+    self.window.rootViewController = navVC;
     
     [self.window makeKeyAndVisible];
     
