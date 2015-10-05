@@ -11,27 +11,35 @@
 @implementation YFAutoTransView
 
 + (NSDictionary *) subViewsConfig{
+    NSNumber * holderWidth = @640.0;
+    NSNumber * holderHeight = @155.0;
+    
+    NSArray * subConfig = @[
+  @[NSStringFromClass([UIImageView class]), @"imageView", @160, @120, @140, @180],
+  @[NSStringFromClass([UILabel class]), @"titleLabel", @420, @31, @55, @615],
+  @[NSStringFromClass([UILabel class]), @"detailLabel", @410, @60, @136, @605],
+  @[NSStringFromClass([UIButton class]), @"chatBtn", @120, @28, @141, @628]];
+    
+    NSMutableArray * subViewsConfig = [NSMutableArray arrayWithCapacity: 42];
+    
+    [subConfig enumerateObjectsUsingBlock:^(NSArray * obj, NSUInteger idx, BOOL *stop) {
+        if (6 != obj.count) {
+            return;
+        }
+        
+        NSDictionary * configDict =
+        @{
+          YFViewComponentSubViewClassNameKey: obj[0],
+          YFViewComponentSubViewPropNameKey: obj[1], YFViewComponentSubViewHolderWidthKey: obj[2],YFViewComponentSubViewHolderHeightKey: obj[3], YFViewComponentSubViewHolderBottomKey: obj[4], YFViewComponentSubViewHolderRightKey: obj[5]
+          };
+        
+        [subViewsConfig addObject: configDict];
+    }];
+    
     NSDictionary * config = @{
-                              YFViewComponentSelfHolderWidthKey: @640.0,
-                              YFViewComponentSelfHolderHeightKey: @155.0,
-                              YFViewComponentSubViewsKey:
-  @[@{
-      YFViewComponentSubViewClassNameKey: NSStringFromClass([UIImageView class]) ,
-      YFViewComponentSubViewPropNameKey: @"imageView", YFViewComponentSubViewHolderWidthKey: @160, YFViewComponentSubViewHolderHeightKey: @120, YFViewComponentSubViewHolderBottomKey: @140, YFViewComponentSubViewHolderRightKey: @180
-      },
-  @{
-        YFViewComponentSubViewClassNameKey: NSStringFromClass([UILabel class]),
-        YFViewComponentSubViewPropNameKey: @"titleLabel", YFViewComponentSubViewHolderWidthKey: @420, YFViewComponentSubViewHolderHeightKey: @31, YFViewComponentSubViewHolderBottomKey: @55, YFViewComponentSubViewHolderRightKey: @615
-        },
-  @{
-        YFViewComponentSubViewClassNameKey: NSStringFromClass([UILabel class]) ,
-        YFViewComponentSubViewPropNameKey: @"detailLabel", YFViewComponentSubViewHolderWidthKey: @410, YFViewComponentSubViewHolderHeightKey: @60, YFViewComponentSubViewHolderBottomKey: @136, YFViewComponentSubViewHolderRightKey: @605
-        },
-  @{
-        YFViewComponentSubViewClassNameKey: NSStringFromClass([UIButton class]) ,
-        YFViewComponentSubViewPropNameKey: @"chatBtn", YFViewComponentSubViewHolderWidthKey: @120, YFViewComponentSubViewHolderHeightKey: @28, YFViewComponentSubViewHolderBottomKey: @141, YFViewComponentSubViewHolderRightKey: @628
-        }]
-    };
+                              YFViewComponentSelfHolderWidthKey: holderWidth,
+                              YFViewComponentSelfHolderHeightKey: holderHeight,
+                              YFViewComponentSubViewsKey: subViewsConfig};
     
     return config;
 }
