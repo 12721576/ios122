@@ -7,6 +7,7 @@
 //
 
 #import "YFAutoTransViewController.h"
+#import "YFAutoTransView.h"
 
 @interface YFAutoTransViewController ()
 
@@ -19,50 +20,24 @@
     // Do any additional setup after loading the view.
     self.title = @"设计图自动转代码";
     
-    UIView * autoTestView = [self setupView];
+    YFAutoTransView * autoTestView = [[YFAutoTransView alloc] init];
     
     autoTestView.frame = CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 155.0/2);
     
+    autoTestView.imageView.image = [UIImage imageNamed:@"autoTrans.png"];
+    
+    autoTestView.titleLabel.text = @"爱马仕版苹果表开售8688元起";
+    autoTestView.titleLabel.font = [UIFont systemFontOfSize:15];
+    [autoTestView.titleLabel adjustsFontSizeToFitWidth];
+    
+    autoTestView.detailLabel.text = @"爱马仕版苹果表盘和表带并不会单独销售.";
+    autoTestView.detailLabel.numberOfLines = 0;
+    autoTestView.detailLabel.font = [UIFont systemFontOfSize:12];
+    
+    [autoTestView.chatBtn setTitle:@"跟帖" forState: UIControlStateNormal];
+    autoTestView.chatBtn.backgroundColor = [UIColor redColor];
+    
     [self.view addSubview: autoTestView];
-}
-
-- (UIView *) setupView
-{
-    UIView * holderView = [[UIView alloc] init];
-    holderView.backgroundColor = [UIColor redColor];
-    
-    CGFloat superHeight = 155.0;
-    CGFloat superWidth = 614.0;
-    
-    NSArray * locatArray = @[
-  @{@"width": @160, @"height": @120, @"bottom": @140, @"right": @180},
-  @{@"width": @420, @"height": @31, @"bottom": @55, @"right": @615},
-  @{@"width": @410, @"height": @60, @"bottom": @136, @"right": @605},
-  @{@"width": @120, @"height": @28, @"bottom": @141, @"right": @628}];
-    
-    [locatArray enumerateObjectsUsingBlock:^(NSDictionary * obj, NSUInteger idx, BOOL *stop) {
-        UIView * subView = [[UIView alloc] init];
-        [holderView addSubview: subView];
-        
-        subView.backgroundColor = [UIColor blueColor];
-        
-        CGFloat subWidth = [[obj objectForKey:@"width"] floatValue];
-        CGFloat subHeight = [[obj objectForKey:@"height"] floatValue];
-        CGFloat subBottom = [[obj objectForKey:@"bottom"] floatValue];
-        CGFloat subRight = [[obj objectForKey:@"right"] floatValue];
-        
-        [subView makeConstraints:^(MASConstraintMaker *make) {
-            UIView * superView = subView.superview;
-            
-            make.width.equalTo(superView).multipliedBy(subWidth / superWidth);
-            make.height.equalTo(superView).multipliedBy(subHeight / superHeight);
-            
-            make.right.equalTo(superView).multipliedBy(subRight / superWidth);
-            make.bottom.equalTo(superView).multipliedBy(subBottom / superHeight);
-        }];
-    }];
-    
-    return holderView;
 }
 
 - (void)didReceiveMemoryWarning {
