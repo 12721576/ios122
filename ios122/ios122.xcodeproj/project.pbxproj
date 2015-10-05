@@ -17,6 +17,7 @@
 		9DEC931C1BB15C8B00718A41 /* YFAutoLayoutCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC931B1BB15C8B00718A41 /* YFAutoLayoutCellViewController.m */; };
 		9DEC931F1BB1604000718A41 /* YFAutoLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC931E1BB1604000718A41 /* YFAutoLayoutCell.m */; };
 		9DEC93221BB160DF00718A41 /* YFAutoLayoutCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC93211BB160DF00718A41 /* YFAutoLayoutCellModel.m */; };
+		9DEF7AAC1BC2B44700E4B473 /* YFAutoTransViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF7AAB1BC2B44700E4B473 /* YFAutoTransViewController.m */; };
 		FF9BCB054F23C84FD9A9D034 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 334AA1737CAB2A3E5DCFD08B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		9DEC931E1BB1604000718A41 /* YFAutoLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFAutoLayoutCell.m; sourceTree = "<group>"; };
 		9DEC93201BB160DF00718A41 /* YFAutoLayoutCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFAutoLayoutCellModel.h; sourceTree = "<group>"; };
 		9DEC93211BB160DF00718A41 /* YFAutoLayoutCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFAutoLayoutCellModel.m; sourceTree = "<group>"; };
+		9DEF7AAA1BC2B44700E4B473 /* YFAutoTransViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFAutoTransViewController.h; sourceTree = "<group>"; };
+		9DEF7AAB1BC2B44700E4B473 /* YFAutoTransViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFAutoTransViewController.m; sourceTree = "<group>"; };
 		A86C39CBECE6DE378881F378 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DD2207D1F8672EE8912E6E2E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +161,7 @@
 		9DEC93181BB15C5A00718A41 /* samples */ = {
 			isa = PBXGroup;
 			children = (
+				9DEF7AA91BC2B42A00E4B473 /* autoTrans */,
 				9DEC93191BB15C5A00718A41 /* autoLayoutCell */,
 			);
 			path = samples;
@@ -174,6 +178,15 @@
 				9DEC93211BB160DF00718A41 /* YFAutoLayoutCellModel.m */,
 			);
 			path = autoLayoutCell;
+			sourceTree = "<group>";
+		};
+		9DEF7AA91BC2B42A00E4B473 /* autoTrans */ = {
+			isa = PBXGroup;
+			children = (
+				9DEF7AAA1BC2B44700E4B473 /* YFAutoTransViewController.h */,
+				9DEF7AAB1BC2B44700E4B473 /* YFAutoTransViewController.m */,
+			);
+			path = autoTrans;
 			sourceTree = "<group>";
 		};
 		F2863553E1621E2CE272BC06 /* Frameworks */ = {
@@ -230,6 +243,7 @@
 		9DEC92D61BB1468600718A41 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YF;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = iOS122;
 				TargetAttributes = {
@@ -323,6 +337,7 @@
 				9DEC92E71BB1468600718A41 /* AppDelegate.m in Sources */,
 				9DEC931C1BB15C8B00718A41 /* YFAutoLayoutCellViewController.m in Sources */,
 				9DEC931F1BB1604000718A41 /* YFAutoLayoutCell.m in Sources */,
+				9DEF7AAC1BC2B44700E4B473 /* YFAutoTransViewController.m in Sources */,
 				9DEC92EA1BB1468600718A41 /* iOS122.xcdatamodeld in Sources */,
 				9DEC92E41BB1468600718A41 /* main.m in Sources */,
 			);
@@ -450,7 +465,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -464,7 +479,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

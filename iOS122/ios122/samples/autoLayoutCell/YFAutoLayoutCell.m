@@ -46,7 +46,7 @@
     [self.imgView makeConstraints:^(MASConstraintMaker *make) {
         make.top.left.equalTo(8);
         make.size.equalTo(CGSizeMake(60, 60));
-        make.bottom.lessThanOrEqualTo(-8);
+        make.bottom.lessThanOrEqualTo(-8).priorityHigh();
     }];
     
     [self.introLabel makeConstraints:^(MASConstraintMaker *make) {
