@@ -9,7 +9,7 @@
 #import "YFHomeViewController.h"
 #import "YFAutoLayoutCellViewController.h"
 #import "YFAutoTransViewController.h"
-
+#import <AFNetworking.h>
 
 @interface YFHomeViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) UITableView * tabelView;
