@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 iOS122. All rights reserved.
 //
 
-#import <UITableView+FDTemplateLayoutCell.h>
+#import "UITableView+FDTemplateLayoutCell.h"
 
 #import "YFAutoLayoutCellViewController.h"
 #import "YFAutoLayoutCell.h"

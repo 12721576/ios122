@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DE221FE1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE221FB1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m */; };
+		9DE221FF1BC8B39F00724A97 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9DE221FC1BC8B39F00724A97 /* LICENSE */; };
 		9DEC92E41BB1468600718A41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC92E31BB1468600718A41 /* main.m */; };
 		9DEC92E71BB1468600718A41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC92E61BB1468600718A41 /* AppDelegate.m */; };
 		9DEC92EA1BB1468600718A41 /* iOS122.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC92E81BB1468600718A41 /* iOS122.xcdatamodeld */; };
@@ -36,6 +38,10 @@
 
 /* Begin PBXFileReference section */
 		334AA1737CAB2A3E5DCFD08B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE221FA1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		9DE221FB1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		9DE221FC1BC8B39F00724A97 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9DE221FD1BC8B39F00724A97 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9DEC92DE1BB1468600718A41 /* iOS122.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS122.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEC92E21BB1468600718A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DEC92E31BB1468600718A41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -95,6 +101,33 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9DE221F71BC8B37200724A97 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				9DE221F81BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		9DE221F81BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell */ = {
+			isa = PBXGroup;
+			children = (
+				9DE221F91BC8B39F00724A97 /* Classes */,
+				9DE221FC1BC8B39F00724A97 /* LICENSE */,
+				9DE221FD1BC8B39F00724A97 /* README.md */,
+			);
+			path = "UITableView+FDTemplateLayoutCell";
+			sourceTree = "<group>";
+		};
+		9DE221F91BC8B39F00724A97 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9DE221FA1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.h */,
+				9DE221FB1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		9DEC92D51BB1468600718A41 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +151,7 @@
 		9DEC92E01BB1468600718A41 /* iOS122 */ = {
 			isa = PBXGroup;
 			children = (
+				9DE221F71BC8B37200724A97 /* other */,
 				9DEC93181BB15C5A00718A41 /* samples */,
 				9DEC93131BB14FA300718A41 /* home */,
 				9DEC92E11BB1468600718A41 /* Supporting Files */,
@@ -295,6 +329,7 @@
 			files = (
 				9DEC92F51BB1468600718A41 /* LaunchScreen.xib in Resources */,
 				9DEF7AB11BC2F6D900E4B473 /* autoTrans.png in Resources */,
+				9DE221FF1BC8B39F00724A97 /* LICENSE in Resources */,
 				9DEC92F21BB1468600718A41 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +387,7 @@
 				9DEF7AB71BC30B3400E4B473 /* YFViewComponent.m in Sources */,
 				9DEC931C1BB15C8B00718A41 /* YFAutoLayoutCellViewController.m in Sources */,
 				9DEC931F1BB1604000718A41 /* YFAutoLayoutCell.m in Sources */,
+				9DE221FE1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m in Sources */,
 				9DEF7AAC1BC2B44700E4B473 /* YFAutoTransViewController.m in Sources */,
 				9DEC92EA1BB1468600718A41 /* iOS122.xcdatamodeld in Sources */,
 				9DEC92E41BB1468600718A41 /* main.m in Sources */,
