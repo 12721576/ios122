@@ -16,9 +16,9 @@
     
     NSArray * subConfig = @[
   @[NSStringFromClass([UIImageView class]), @"imageView", @160, @120, @140, @180],
-  @[NSStringFromClass([UILabel class]), @"titleLabel", @420, @31, @55, @615],
-  @[NSStringFromClass([UILabel class]), @"detailLabel", @410, @60, @136, @605],
-  @[NSStringFromClass([UIButton class]), @"chatBtn", @120, @28, @141, @628]];
+  @[NSStringFromClass([UILabel class]), @"titleLabel", @420.0, @40.0, @55.0, @615.0],
+  @[NSStringFromClass([UILabel class]), @"detailLabel", @410.0, @65.0, @136.0, @605.0],
+  @[NSStringFromClass([UIButton class]), @"chatBtn", @120.0, @28, @141, @628]];
     
     NSMutableArray * subViewsConfig = [NSMutableArray arrayWithCapacity: 42];
     

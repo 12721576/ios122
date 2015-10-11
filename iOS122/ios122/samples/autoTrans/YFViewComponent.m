@@ -67,6 +67,15 @@ const NSString *  YFViewComponentSubViewHolderBottomKey = @"YFViewComponentSubVi
                 make.right.equalTo(superView).multipliedBy(subRight / superWidth);
                 make.bottom.equalTo(superView).multipliedBy(subBottom / superHeight);
             }];
+            
+            /* 支持UILabel及其子类字体大小自适应. */
+            if ([subView isKindOfClass:[UILabel class]]) {
+                UILabel * tempLabel = (UILabel *)subView;
+                tempLabel.font = [UIFont systemFontOfSize: 100.0];
+                tempLabel.minimumScaleFactor = 0.001;
+                tempLabel.adjustsFontSizeToFitWidth = YES;
+                tempLabel.numberOfLines = 0;
+            }
         }];
     }
     

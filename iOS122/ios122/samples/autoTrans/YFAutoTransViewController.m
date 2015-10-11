@@ -27,12 +27,8 @@
     autoTestView.imageView.image = [UIImage imageNamed:@"autoTrans.png"];
     
     autoTestView.titleLabel.text = @"爱马仕版苹果表开售8688元起";
-    autoTestView.titleLabel.font = [UIFont systemFontOfSize:15];
-    [autoTestView.titleLabel adjustsFontSizeToFitWidth];
     
-    autoTestView.detailLabel.text = @"爱马仕版苹果表盘和表带并不会单独销售.";
-    autoTestView.detailLabel.numberOfLines = 0;
-    autoTestView.detailLabel.font = [UIFont systemFontOfSize:12];
+    autoTestView.detailLabel.text = @"爱马仕版苹果表盘和表带并不会单独销售.爱马仕版苹果表盘和表带并不会单独销售.";
     
     [autoTestView.chatBtn setTitle:@"跟帖" forState: UIControlStateNormal];
     autoTestView.chatBtn.backgroundColor = [UIColor redColor];
