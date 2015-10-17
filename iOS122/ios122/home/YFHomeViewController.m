@@ -12,6 +12,7 @@
 #import "YFPatternViewController.h"
 #import <AFNetworking.h>
 #import "YFXibDemoViewController.h"
+#import "YFMVCPostListViewController.h"
 
 @interface YFHomeViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) UITableView * tabelView;
@@ -51,7 +52,7 @@
 #pragma mark - UITabelView 代理方法.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 3;
+    return 4;
 }
 
 
@@ -74,8 +75,8 @@
     }
     
     if (3 == indexPath.row) {
-        cell.textLabel.text = @"设计模式探寻";
-        cell.detailTextLabel.text = @"更加简化的Controller方案";
+        cell.textLabel.text = @"一个MVC模式的例子";
+        cell.detailTextLabel.text = @"含网络请求,解析,加载视图等完整内容.";
     }
     
     return cell;
@@ -100,6 +101,25 @@
         
         [self.navigationController pushViewController: xibDemoVC animated: YES];
     }
+    
+    if (3 == indexPath.row) {
+        YFMVCPostListViewController * mvcPostListVC = [[YFMVCPostListViewController alloc] init];
+        
+        mvcPostListVC.categoryName = @"ui";
+
+        
+        [self.navigationController pushViewController: mvcPostListVC animated: YES];
+    }
+
 }
+
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    CGFloat height = 100;
+    
+    return height;
+}
+
 
 @end

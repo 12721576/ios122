@@ -17,6 +17,9 @@
 		9DE80FF71BCDE6F400112404 /* YFDemoComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DE80FF61BCDE6F400112404 /* YFDemoComponent.xib */; };
 		9DE80FFB1BCDE7D900112404 /* YFXibDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE80FF91BCDE7D900112404 /* YFXibDemoViewController.m */; };
 		9DE80FFC1BCDE7D900112404 /* YFXibDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DE80FFA1BCDE7D900112404 /* YFXibDemoViewController.xib */; };
+		9DE8101F1BCE5F5600112404 /* YFMVCPostListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8101E1BCE5F5600112404 /* YFMVCPostListViewController.m */; };
+		9DE810221BCE5FFC00112404 /* YFArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE810211BCE5FFC00112404 /* YFArticleModel.m */; };
+		9DE8102C1BD0ED9200112404 /* YFMVCPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8102B1BD0ED9200112404 /* YFMVCPostViewController.m */; };
 		9DEC92E41BB1468600718A41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC92E31BB1468600718A41 /* main.m */; };
 		9DEC92E71BB1468600718A41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC92E61BB1468600718A41 /* AppDelegate.m */; };
 		9DEC92EA1BB1468600718A41 /* iOS122.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC92E81BB1468600718A41 /* iOS122.xcdatamodeld */; };
@@ -65,6 +68,12 @@
 		9DE80FF81BCDE7D900112404 /* YFXibDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFXibDemoViewController.h; sourceTree = "<group>"; };
 		9DE80FF91BCDE7D900112404 /* YFXibDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFXibDemoViewController.m; sourceTree = "<group>"; };
 		9DE80FFA1BCDE7D900112404 /* YFXibDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YFXibDemoViewController.xib; sourceTree = "<group>"; };
+		9DE8101D1BCE5F5600112404 /* YFMVCPostListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFMVCPostListViewController.h; sourceTree = "<group>"; };
+		9DE8101E1BCE5F5600112404 /* YFMVCPostListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFMVCPostListViewController.m; sourceTree = "<group>"; };
+		9DE810201BCE5FFC00112404 /* YFArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFArticleModel.h; sourceTree = "<group>"; };
+		9DE810211BCE5FFC00112404 /* YFArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFArticleModel.m; sourceTree = "<group>"; };
+		9DE8102A1BD0ED9200112404 /* YFMVCPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFMVCPostViewController.h; sourceTree = "<group>"; };
+		9DE8102B1BD0ED9200112404 /* YFMVCPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFMVCPostViewController.m; sourceTree = "<group>"; };
 		9DEC92DE1BB1468600718A41 /* iOS122.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS122.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEC92E21BB1468600718A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DEC92E31BB1468600718A41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -180,6 +189,19 @@
 			path = xibdemo;
 			sourceTree = "<group>";
 		};
+		9DE8101C1BCE5F5600112404 /* mvcdemo */ = {
+			isa = PBXGroup;
+			children = (
+				9DE8101D1BCE5F5600112404 /* YFMVCPostListViewController.h */,
+				9DE8101E1BCE5F5600112404 /* YFMVCPostListViewController.m */,
+				9DE810201BCE5FFC00112404 /* YFArticleModel.h */,
+				9DE810211BCE5FFC00112404 /* YFArticleModel.m */,
+				9DE8102A1BD0ED9200112404 /* YFMVCPostViewController.h */,
+				9DE8102B1BD0ED9200112404 /* YFMVCPostViewController.m */,
+			);
+			path = mvcdemo;
+			sourceTree = "<group>";
+		};
 		9DEC92D51BB1468600718A41 = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +277,7 @@
 		9DEC93181BB15C5A00718A41 /* samples */ = {
 			isa = PBXGroup;
 			children = (
+				9DE8101C1BCE5F5600112404 /* mvcdemo */,
 				9DE80FEF1BCDE59400112404 /* xibdemo */,
 				9DE80FE21BCCD7A100112404 /* mvcext */,
 				9DEF7AA91BC2B42A00E4B473 /* autoTrans */,
@@ -350,6 +373,7 @@
 				TargetAttributes = {
 					9DEC92DD1BB1468600718A41 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 3BV97V76Y3;
 					};
 					9DEC92F91BB1468700718A41 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -439,8 +463,10 @@
 			files = (
 				9DEC93161BB14FA300718A41 /* YFHomeViewController.m in Sources */,
 				9DEC93221BB160DF00718A41 /* YFAutoLayoutCellModel.m in Sources */,
+				9DE810221BCE5FFC00112404 /* YFArticleModel.m in Sources */,
 				9DEC92E71BB1468600718A41 /* AppDelegate.m in Sources */,
 				9DE80FF51BCDE6E300112404 /* YFDemoComponent.m in Sources */,
+				9DE8101F1BCE5F5600112404 /* YFMVCPostListViewController.m in Sources */,
 				9DEF7AB71BC30B3400E4B473 /* YFViewComponent.m in Sources */,
 				9DE80FE51BCCD7F100112404 /* YFPatternViewController.m in Sources */,
 				9DEC931C1BB15C8B00718A41 /* YFAutoLayoutCellViewController.m in Sources */,
@@ -453,6 +479,7 @@
 				9DEF7AAC1BC2B44700E4B473 /* YFAutoTransViewController.m in Sources */,
 				9DEC92EA1BB1468600718A41 /* iOS122.xcdatamodeld in Sources */,
 				9DEC92E41BB1468600718A41 /* main.m in Sources */,
+				9DE8102C1BD0ED9200112404 /* YFMVCPostViewController.m in Sources */,
 				9DEF7AAF1BC2EEF100E4B473 /* YFAutoTransView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -574,11 +601,14 @@
 			baseConfigurationReference = A86C39CBECE6DE378881F378 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOS122/prefix.pch";
 				INFOPLIST_FILE = iOS122/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -588,11 +618,14 @@
 			baseConfigurationReference = DD2207D1F8672EE8912E6E2E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOS122/prefix.pch";
 				INFOPLIST_FILE = iOS122/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

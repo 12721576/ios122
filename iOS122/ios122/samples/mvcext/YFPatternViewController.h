@@ -11,7 +11,7 @@
 
 @class YFPatternModel, YFArticleCollection;
 
-@interface YFPatternViewController : UIViewController<YFMVVMDelegate>
+@interface YFPatternViewController : UIViewController
 @property (strong, nonatomic) YFPatternModel * model;
 
 @end
