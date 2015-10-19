@@ -6,3 +6,5 @@ pod "AFNetworking" # 网络请求.
 pod "MJExtension" # JSON自动转为Model.
 pod "MJRefresh" # 添加上拉加载更多与下拉刷新功能.
 pod "MBProgressHUD" # 进度提示.
+pod "ReactiveCocoa" # RAC,一个支持响应式编程的库.
+pod 'pop' # POP,动画库.
