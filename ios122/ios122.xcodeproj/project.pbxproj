@@ -20,6 +20,8 @@
 		9DE8101F1BCE5F5600112404 /* YFMVCPostListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8101E1BCE5F5600112404 /* YFMVCPostListViewController.m */; };
 		9DE810221BCE5FFC00112404 /* YFArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE810211BCE5FFC00112404 /* YFArticleModel.m */; };
 		9DE8102C1BD0ED9200112404 /* YFMVCPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8102B1BD0ED9200112404 /* YFMVCPostViewController.m */; };
+		9DE8104F1BD4CE1500112404 /* YFRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8104D1BD4CE1500112404 /* YFRACViewController.m */; };
+		9DE810501BD4CE1500112404 /* YFRACViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DE8104E1BD4CE1500112404 /* YFRACViewController.xib */; };
 		9DEC92E41BB1468600718A41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC92E31BB1468600718A41 /* main.m */; };
 		9DEC92E71BB1468600718A41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC92E61BB1468600718A41 /* AppDelegate.m */; };
 		9DEC92EA1BB1468600718A41 /* iOS122.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC92E81BB1468600718A41 /* iOS122.xcdatamodeld */; };
@@ -74,6 +76,9 @@
 		9DE810211BCE5FFC00112404 /* YFArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFArticleModel.m; sourceTree = "<group>"; };
 		9DE8102A1BD0ED9200112404 /* YFMVCPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFMVCPostViewController.h; sourceTree = "<group>"; };
 		9DE8102B1BD0ED9200112404 /* YFMVCPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFMVCPostViewController.m; sourceTree = "<group>"; };
+		9DE8104C1BD4CE1500112404 /* YFRACViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFRACViewController.h; sourceTree = "<group>"; };
+		9DE8104D1BD4CE1500112404 /* YFRACViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFRACViewController.m; sourceTree = "<group>"; };
+		9DE8104E1BD4CE1500112404 /* YFRACViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YFRACViewController.xib; sourceTree = "<group>"; };
 		9DEC92DE1BB1468600718A41 /* iOS122.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS122.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEC92E21BB1468600718A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DEC92E31BB1468600718A41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -202,6 +207,16 @@
 			path = mvcdemo;
 			sourceTree = "<group>";
 		};
+		9DE8104B1BD4CDF600112404 /* rac2.5 */ = {
+			isa = PBXGroup;
+			children = (
+				9DE8104C1BD4CE1500112404 /* YFRACViewController.h */,
+				9DE8104D1BD4CE1500112404 /* YFRACViewController.m */,
+				9DE8104E1BD4CE1500112404 /* YFRACViewController.xib */,
+			);
+			path = rac2.5;
+			sourceTree = "<group>";
+		};
 		9DEC92D51BB1468600718A41 = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +292,7 @@
 		9DEC93181BB15C5A00718A41 /* samples */ = {
 			isa = PBXGroup;
 			children = (
+				9DE8104B1BD4CDF600112404 /* rac2.5 */,
 				9DE8101C1BCE5F5600112404 /* mvcdemo */,
 				9DE80FEF1BCDE59400112404 /* xibdemo */,
 				9DE80FE21BCCD7A100112404 /* mvcext */,
@@ -406,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DE80FFC1BCDE7D900112404 /* YFXibDemoViewController.xib in Resources */,
+				9DE810501BD4CE1500112404 /* YFRACViewController.xib in Resources */,
 				9DEC92F51BB1468600718A41 /* LaunchScreen.xib in Resources */,
 				9DE80FF71BCDE6F400112404 /* YFDemoComponent.xib in Resources */,
 				9DEF7AB11BC2F6D900E4B473 /* autoTrans.png in Resources */,
@@ -470,6 +487,7 @@
 				9DEF7AB71BC30B3400E4B473 /* YFViewComponent.m in Sources */,
 				9DE80FE51BCCD7F100112404 /* YFPatternViewController.m in Sources */,
 				9DEC931C1BB15C8B00718A41 /* YFAutoLayoutCellViewController.m in Sources */,
+				9DE8104F1BD4CE1500112404 /* YFRACViewController.m in Sources */,
 				9DEC931F1BB1604000718A41 /* YFAutoLayoutCell.m in Sources */,
 				9DE80FFB1BCDE7D900112404 /* YFXibDemoViewController.m in Sources */,
 				9DE221FE1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m in Sources */,

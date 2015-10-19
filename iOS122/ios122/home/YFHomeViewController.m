@@ -13,6 +13,7 @@
 #import <AFNetworking.h>
 #import "YFXibDemoViewController.h"
 #import "YFMVCPostListViewController.h"
+#import "YFRACViewController.h"
 
 @interface YFHomeViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) UITableView * tabelView;
@@ -52,7 +53,7 @@
 #pragma mark - UITabelView 代理方法.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 4;
+    return 5;
 }
 
 
@@ -78,6 +79,12 @@
         cell.textLabel.text = @"一个MVC模式的例子";
         cell.detailTextLabel.text = @"含网络请求,解析,加载视图等完整内容.";
     }
+    
+    if (4 == indexPath.row) {
+        cell.textLabel.text = @"RAC2.5版示例";
+        cell.detailTextLabel.text = @"ReactiveCocoa2.5版示例";
+    }
+
     
     return cell;
 }
@@ -109,6 +116,12 @@
 
         
         [self.navigationController pushViewController: mvcPostListVC animated: YES];
+    }
+    
+    if (4 == indexPath.row) {
+        YFRACViewController * racVC = [[YFRACViewController alloc] init];
+        
+        [self.navigationController pushViewController: racVC animated: YES];
     }
 
 }
