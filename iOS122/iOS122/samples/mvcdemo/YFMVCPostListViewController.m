@@ -148,6 +148,8 @@
     
     cell.textLabel.text = content;
     
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    
     return cell;
 }
 

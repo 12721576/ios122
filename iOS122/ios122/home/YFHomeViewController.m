@@ -14,6 +14,10 @@
 #import "YFXibDemoViewController.h"
 #import "YFMVCPostListViewController.h"
 #import "YFRACViewController.h"
+#import "YFMVVMPostListViewController.h"
+#import "RAFNMainViewController.h"
+#import "YFBlogListViewModel.h"
+#import "YFCategoryArticleListModel.h"
 
 @interface YFHomeViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) UITableView * tabelView;
@@ -53,7 +57,7 @@
 #pragma mark - UITabelView 代理方法.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 5;
+    return 7;
 }
 
 
@@ -84,7 +88,18 @@
         cell.textLabel.text = @"RAC2.5版示例";
         cell.detailTextLabel.text = @"ReactiveCocoa2.5版示例";
     }
-
+    
+    if (5 == indexPath.row) {
+        cell.textLabel.text = @"一个MVVM模式的例子";
+        cell.detailTextLabel.text = @"MVC模式例子的MVVM版本.";
+    }
+    
+    if (6 == indexPath.row) {
+        cell.textLabel.text = @"AFNetworking-RACExtensions";
+        cell.detailTextLabel.text = @"使AFN支持RAC的库,官方实例无法直接跑起来";
+    }
+    
+    [cell setSelectionStyle: UITableViewCellSelectionStyleNone];
     
     return cell;
 }
@@ -123,6 +138,28 @@
         
         [self.navigationController pushViewController: racVC animated: YES];
     }
+    
+    if (5 == indexPath.row) {
+        YFMVVMPostListViewController * mvvmPostVC = [[YFMVVMPostListViewController alloc] init];
+        
+        YFCategoryArticleListModel * articleListModel = [[YFCategoryArticleListModel alloc] init];
+        articleListModel.category = @"ui";
+        
+        YFBlogListViewModel * listVM = [[YFBlogListViewModel alloc] initWithCategoryArtilceListModel: articleListModel];
+        
+        mvvmPostVC.viewModel = listVM;
+        
+        [self.navigationController pushViewController: mvvmPostVC animated: YES];
+    }
+    
+    if (6 == indexPath.row) {
+        RAFNMainViewController * afnRACVC = [[RAFNMainViewController alloc] init];
+        
+        
+        [self.navigationController pushViewController: afnRACVC animated: YES];
+    }
+    
+    
 
 }
 
