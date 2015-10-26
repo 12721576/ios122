@@ -21,6 +21,7 @@
 
 @interface YFHomeViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) UITableView * tabelView;
+@property (strong, nonatomic) NSArray * dataList; //!< 暂时用一个数组用数据源.
 
 @end
 
@@ -31,6 +32,15 @@
     // Do any additional setup after loading the view from its nib.
     self.title = @"主页";
     self.tabelView = [[UITableView alloc] init];
+    
+    self.dataList = @[
+  @{@"title":@"Masonry + UITableView-FDTemplateLayoutCell", @"detail": @"实现基于约束的自适应单元格的高度tabelView"},
+  @{@"title":@"UI设计图自动转iOS UI控件", @"detail": @"给出设计图,就能立即自动生成相应的代码."},
+  @{@"title":@"Xib复用示例", @"detail": @"Xib复用的实际例子"},
+  @{@"title":@"一个MVC模式的例子", @"detail": @"含网络请求,解析,加载视图等完整内容."},
+  @{@"title":@"RAC2.5版示例", @"detail": @"ReactiveCocoa2.5版示例"},
+  @{@"title":@"一个MVVM模式的例子", @"detail": @"MVC模式例子的MVVM版本."},
+  @{@"title":@"AFNetworking-RACExtensions", @"detail": @"使AFN支持RAC的库,官方实例无法直接跑起来"}];
 }
 
 - (void)setTabelView:(UITableView *)tabelView
@@ -57,7 +67,9 @@
 #pragma mark - UITabelView 代理方法.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 7;
+    NSInteger number = self.dataList.count;
+    
+    return number;
 }
 
 
@@ -69,35 +81,13 @@
     
     cell.detailTextLabel.text = @"实现基于约束的自适应单元格的高度tabelView";
     
-    if (1 == indexPath.row) {
-        cell.textLabel.text = @"UI设计图自动转iOS UI控件";
-        cell.detailTextLabel.text = @"给出设计图,就能立即自动生成相应的代码.";
-    }
+    NSDictionary * data = [self.dataList objectAtIndex: indexPath.row];
     
-    if (2 == indexPath.row) {
-        cell.textLabel.text = @"Xib复用示例";
-        cell.detailTextLabel.text = @"Xib复用的实际例子";
-    }
+    NSString * title = [data objectForKey: @"title"];
+    NSString * detail = [data objectForKey: @"detail"];
     
-    if (3 == indexPath.row) {
-        cell.textLabel.text = @"一个MVC模式的例子";
-        cell.detailTextLabel.text = @"含网络请求,解析,加载视图等完整内容.";
-    }
-    
-    if (4 == indexPath.row) {
-        cell.textLabel.text = @"RAC2.5版示例";
-        cell.detailTextLabel.text = @"ReactiveCocoa2.5版示例";
-    }
-    
-    if (5 == indexPath.row) {
-        cell.textLabel.text = @"一个MVVM模式的例子";
-        cell.detailTextLabel.text = @"MVC模式例子的MVVM版本.";
-    }
-    
-    if (6 == indexPath.row) {
-        cell.textLabel.text = @"AFNetworking-RACExtensions";
-        cell.detailTextLabel.text = @"使AFN支持RAC的库,官方实例无法直接跑起来";
-    }
+    cell.textLabel.text = title;
+    cell.detailTextLabel.text = detail;
     
     [cell setSelectionStyle: UITableViewCellSelectionStyleNone];
     
