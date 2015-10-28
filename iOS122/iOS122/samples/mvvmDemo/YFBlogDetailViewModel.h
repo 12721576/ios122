@@ -12,6 +12,7 @@
 /**
  *  文章详情的视图模型.
  */
+
 @interface YFBlogDetailViewModel : NSObject
 @property (copy, nonatomic) NSString * content; // 要显示的内容.
 @property (copy, nonatomic) NSString * blogId; //!< 博客ID.

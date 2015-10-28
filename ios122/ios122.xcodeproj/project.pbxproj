@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D5C66E01BDF88B500D182F8 /* YFXmlToJsonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C66DE1BDF88B500D182F8 /* YFXmlToJsonViewController.m */; };
+		9D5C66E11BDF88B500D182F8 /* YFXmlToJsonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C66DF1BDF88B500D182F8 /* YFXmlToJsonViewController.xib */; };
+		9D5C66E61BE0B66100D182F8 /* Post.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C66E51BE0B66100D182F8 /* Post.xml */; };
 		9DE221FE1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE221FB1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m */; };
 		9DE221FF1BC8B39F00724A97 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9DE221FC1BC8B39F00724A97 /* LICENSE */; };
 		9DE39DE11BD791940054A79B /* YFCategoryArticleListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE39DE01BD791940054A79B /* YFCategoryArticleListModel.m */; };
@@ -58,6 +61,10 @@
 
 /* Begin PBXFileReference section */
 		334AA1737CAB2A3E5DCFD08B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5C66DD1BDF88B500D182F8 /* YFXmlToJsonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFXmlToJsonViewController.h; sourceTree = "<group>"; };
+		9D5C66DE1BDF88B500D182F8 /* YFXmlToJsonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFXmlToJsonViewController.m; sourceTree = "<group>"; };
+		9D5C66DF1BDF88B500D182F8 /* YFXmlToJsonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YFXmlToJsonViewController.xib; sourceTree = "<group>"; };
+		9D5C66E51BE0B66100D182F8 /* Post.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Post.xml; sourceTree = "<group>"; };
 		9DE221FA1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
 		9DE221FB1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
 		9DE221FC1BC8B39F00724A97 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -157,6 +164,17 @@
 				DD2207D1F8672EE8912E6E2E /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D5C66DA1BDF884C00D182F8 /* xmlToJson */ = {
+			isa = PBXGroup;
+			children = (
+				9D5C66E51BE0B66100D182F8 /* Post.xml */,
+				9D5C66DD1BDF88B500D182F8 /* YFXmlToJsonViewController.h */,
+				9D5C66DE1BDF88B500D182F8 /* YFXmlToJsonViewController.m */,
+				9D5C66DF1BDF88B500D182F8 /* YFXmlToJsonViewController.xib */,
+			);
+			path = xmlToJson;
 			sourceTree = "<group>";
 		};
 		9DE221F71BC8B37200724A97 /* other */ = {
@@ -341,6 +359,7 @@
 		9DEC93181BB15C5A00718A41 /* samples */ = {
 			isa = PBXGroup;
 			children = (
+				9D5C66DA1BDF884C00D182F8 /* xmlToJson */,
 				9DE39E231BD8C8460054A79B /* AFNetworking-RACExtensions */,
 				9DE39DDE1BD78F930054A79B /* mvvmDemo */,
 				9DE8104B1BD4CDF600112404 /* rac2.5 */,
@@ -474,7 +493,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DE80FFC1BCDE7D900112404 /* YFXibDemoViewController.xib in Resources */,
+				9D5C66E61BE0B66100D182F8 /* Post.xml in Resources */,
 				9DE810501BD4CE1500112404 /* YFRACViewController.xib in Resources */,
+				9D5C66E11BDF88B500D182F8 /* YFXmlToJsonViewController.xib in Resources */,
 				9DEC92F51BB1468600718A41 /* LaunchScreen.xib in Resources */,
 				9DE80FF71BCDE6F400112404 /* YFDemoComponent.xib in Resources */,
 				9DEF7AB11BC2F6D900E4B473 /* autoTrans.png in Resources */,
@@ -551,6 +572,7 @@
 				9DEC93221BB160DF00718A41 /* YFAutoLayoutCellModel.m in Sources */,
 				9DE810221BCE5FFC00112404 /* YFArticleModel.m in Sources */,
 				9DEC92E71BB1468600718A41 /* AppDelegate.m in Sources */,
+				9D5C66E01BDF88B500D182F8 /* YFXmlToJsonViewController.m in Sources */,
 				9DE80FF51BCDE6E300112404 /* YFDemoComponent.m in Sources */,
 				9DE8101F1BCE5F5600112404 /* YFMVCPostListViewController.m in Sources */,
 				9DEF7AB71BC30B3400E4B473 /* YFViewComponent.m in Sources */,

@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <ReactiveCocoa.h>
 
+
 @class YFCategoryArticleListModel;
 
 
@@ -25,6 +26,8 @@
  *
  *  @return 实例对象.
  */
+
+
 - (instancetype)initWithCategoryArtilceListModel: (YFCategoryArticleListModel *) model;
 
 /**

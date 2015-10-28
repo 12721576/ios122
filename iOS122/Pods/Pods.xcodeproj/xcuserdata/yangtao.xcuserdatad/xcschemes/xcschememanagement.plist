@@ -34,6 +34,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Ono.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -57,11 +62,6 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>08FAA329F76D36FDEDEABC26C76CE542</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>2602F3D0DAC534568B6AD7EEA0DD1959</key>
 		<dict>
 			<key>primary</key>
@@ -72,7 +72,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2B7AFA24BB3E4F3624CCA39FAE2BF175</key>
+		<key>297981EF8F59A17606E53F998A8DB425</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -87,7 +87,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5A7730585240AE56C8F5450EADCFBCAF</key>
+		<key>59AB6813B3719C15899A905ED093B229</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -98,6 +98,16 @@
 			<true/>
 		</dict>
 		<key>9EAB3E42EF957541E6C3C76D35FD008E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5D8BF38C4091F35E7C551CF6A712EF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB64922B8DA93A5FBC3F62F2A1D8B14D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

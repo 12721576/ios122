@@ -27,6 +27,7 @@ PODS:
   - MBProgressHUD (0.9.1)
   - MJExtension (2.5.7)
   - MJRefresh (2.4.7)
+  - Ono (1.2.2)
   - pop (1.0.7)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
@@ -46,6 +47,7 @@ DEPENDENCIES:
   - MBProgressHUD
   - MJExtension
   - MJRefresh
+  - Ono
   - pop
   - ReactiveCocoa
   - SDWebImage
@@ -57,6 +59,7 @@ SPEC CHECKSUMS:
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   MJExtension: 2650b64a34ace8d2aa9410d1d17244917032f37a
   MJRefresh: 6eb2f61338f89f64fd628fd43debcf479381ff59
+  Ono: 80b1c686777d3f6d5d5ce6fcac8a74afef4ca197
   pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
