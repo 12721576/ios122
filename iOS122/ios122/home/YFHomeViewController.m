@@ -19,6 +19,7 @@
 #import "YFBlogListViewModel.h"
 #import "YFCategoryArticleListModel.h"
 #import "YFXmlToJsonViewController.h"
+#import "YFRestClientViewController.h"
 
 @interface YFHomeViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) UITableView * tabelView;
@@ -42,7 +43,8 @@
   @{@"title":@"RAC2.5版示例", @"detail": @"ReactiveCocoa2.5版示例"},
   @{@"title":@"一个MVVM模式的例子", @"detail": @"MVC模式例子的MVVM版本."},
   @{@"title":@"AFNetworking-RACExtensions", @"detail": @"使AFN支持RAC的库,官方实例无法直接跑起来"},
-  @{@"title":@"XML转JSON文件实例", @"detail": @"wordpress xml导出文件转leancloud json导入文件"}];
+  @{@"title":@"XML转JSON文件实例", @"detail": @"wordpress xml导出文件转leancloud json导入文件"},
+  @{@"title":@"iOS Rest Client", @"detail": @"基于RAC和AFN重构LeanCloud的Rest Api"}];
 }
 
 - (void)setTabelView:(UITableView *)tabelView
@@ -154,6 +156,13 @@
         YFXmlToJsonViewController * xmlToJsonVC = [YFXmlToJsonViewController new];
         
         [self.navigationController pushViewController: xmlToJsonVC animated: YES];
+    }
+    
+    
+    if (8 == indexPath.row) {
+        YFRestClientViewController * restVC = [YFRestClientViewController new];
+        
+        [self.navigationController pushViewController: restVC animated: YES];
     }
     
 

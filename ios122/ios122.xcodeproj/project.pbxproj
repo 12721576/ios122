@@ -10,6 +10,11 @@
 		9D5C66E01BDF88B500D182F8 /* YFXmlToJsonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C66DE1BDF88B500D182F8 /* YFXmlToJsonViewController.m */; };
 		9D5C66E11BDF88B500D182F8 /* YFXmlToJsonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C66DF1BDF88B500D182F8 /* YFXmlToJsonViewController.xib */; };
 		9D5C66E61BE0B66100D182F8 /* Post.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C66E51BE0B66100D182F8 /* Post.xml */; };
+		9D5C66EF1BE0D3E000D182F8 /* YFPostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C66EE1BE0D3E000D182F8 /* YFPostModel.m */; };
+		9D5C66F21BE0D49100D182F8 /* YFAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C66F11BE0D49100D182F8 /* YFAPIManager.m */; };
+		9D5C66F71BE1C14300D182F8 /* YFRestClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C66F51BE1C14300D182F8 /* YFRestClientViewController.m */; };
+		9D5C66F81BE1C14300D182F8 /* YFRestClientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C66F61BE1C14300D182F8 /* YFRestClientViewController.xib */; };
+		9D5C66FD1BE224C400D182F8 /* YFUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C66FC1BE224C400D182F8 /* YFUserModel.m */; };
 		9DE221FE1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE221FB1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m */; };
 		9DE221FF1BC8B39F00724A97 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9DE221FC1BC8B39F00724A97 /* LICENSE */; };
 		9DE39DE11BD791940054A79B /* YFCategoryArticleListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE39DE01BD791940054A79B /* YFCategoryArticleListModel.m */; };
@@ -65,6 +70,16 @@
 		9D5C66DE1BDF88B500D182F8 /* YFXmlToJsonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFXmlToJsonViewController.m; sourceTree = "<group>"; };
 		9D5C66DF1BDF88B500D182F8 /* YFXmlToJsonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YFXmlToJsonViewController.xib; sourceTree = "<group>"; };
 		9D5C66E51BE0B66100D182F8 /* Post.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Post.xml; sourceTree = "<group>"; };
+		9D5C66E81BE0C57D00D182F8 /* YFAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFAPI.h; sourceTree = "<group>"; };
+		9D5C66ED1BE0D3E000D182F8 /* YFPostModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFPostModel.h; sourceTree = "<group>"; };
+		9D5C66EE1BE0D3E000D182F8 /* YFPostModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFPostModel.m; sourceTree = "<group>"; };
+		9D5C66F01BE0D49100D182F8 /* YFAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFAPIManager.h; sourceTree = "<group>"; };
+		9D5C66F11BE0D49100D182F8 /* YFAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFAPIManager.m; sourceTree = "<group>"; };
+		9D5C66F41BE1C14300D182F8 /* YFRestClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFRestClientViewController.h; sourceTree = "<group>"; };
+		9D5C66F51BE1C14300D182F8 /* YFRestClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFRestClientViewController.m; sourceTree = "<group>"; };
+		9D5C66F61BE1C14300D182F8 /* YFRestClientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YFRestClientViewController.xib; sourceTree = "<group>"; };
+		9D5C66FB1BE224C400D182F8 /* YFUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFUserModel.h; sourceTree = "<group>"; };
+		9D5C66FC1BE224C400D182F8 /* YFUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFUserModel.m; sourceTree = "<group>"; };
 		9DE221FA1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
 		9DE221FB1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
 		9DE221FC1BC8B39F00724A97 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -175,6 +190,39 @@
 				9D5C66DF1BDF88B500D182F8 /* YFXmlToJsonViewController.xib */,
 			);
 			path = xmlToJson;
+			sourceTree = "<group>";
+		};
+		9D5C66E71BE0C53700D182F8 /* rest */ = {
+			isa = PBXGroup;
+			children = (
+				9D5C66F41BE1C14300D182F8 /* YFRestClientViewController.h */,
+				9D5C66F51BE1C14300D182F8 /* YFRestClientViewController.m */,
+				9D5C66F61BE1C14300D182F8 /* YFRestClientViewController.xib */,
+				9D5C66E81BE0C57D00D182F8 /* YFAPI.h */,
+				9D5C66EB1BE0C74300D182F8 /* Classes */,
+			);
+			path = rest;
+			sourceTree = "<group>";
+		};
+		9D5C66EB1BE0C74300D182F8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D5C66F01BE0D49100D182F8 /* YFAPIManager.h */,
+				9D5C66F11BE0D49100D182F8 /* YFAPIManager.m */,
+				9D5C66EC1BE0C74300D182F8 /* Models */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9D5C66EC1BE0C74300D182F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9D5C66ED1BE0D3E000D182F8 /* YFPostModel.h */,
+				9D5C66EE1BE0D3E000D182F8 /* YFPostModel.m */,
+				9D5C66FB1BE224C400D182F8 /* YFUserModel.h */,
+				9D5C66FC1BE224C400D182F8 /* YFUserModel.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		9DE221F71BC8B37200724A97 /* other */ = {
@@ -359,6 +407,7 @@
 		9DEC93181BB15C5A00718A41 /* samples */ = {
 			isa = PBXGroup;
 			children = (
+				9D5C66E71BE0C53700D182F8 /* rest */,
 				9D5C66DA1BDF884C00D182F8 /* xmlToJson */,
 				9DE39E231BD8C8460054A79B /* AFNetworking-RACExtensions */,
 				9DE39DDE1BD78F930054A79B /* mvvmDemo */,
@@ -492,6 +541,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D5C66F81BE1C14300D182F8 /* YFRestClientViewController.xib in Resources */,
 				9DE80FFC1BCDE7D900112404 /* YFXibDemoViewController.xib in Resources */,
 				9D5C66E61BE0B66100D182F8 /* Post.xml in Resources */,
 				9DE810501BD4CE1500112404 /* YFRACViewController.xib in Resources */,
@@ -566,6 +616,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D5C66EF1BE0D3E000D182F8 /* YFPostModel.m in Sources */,
 				9DEC93161BB14FA300718A41 /* YFHomeViewController.m in Sources */,
 				9DE39DEE1BD7A2580054A79B /* YFMVVMPostViewController.m in Sources */,
 				9DE39DE11BD791940054A79B /* YFCategoryArticleListModel.m in Sources */,
@@ -576,6 +627,7 @@
 				9DE80FF51BCDE6E300112404 /* YFDemoComponent.m in Sources */,
 				9DE8101F1BCE5F5600112404 /* YFMVCPostListViewController.m in Sources */,
 				9DEF7AB71BC30B3400E4B473 /* YFViewComponent.m in Sources */,
+				9D5C66F71BE1C14300D182F8 /* YFRestClientViewController.m in Sources */,
 				9DE39DF61BD890A90054A79B /* YFBlogListItemViewModel.m in Sources */,
 				9DE39E261BD8C8460054A79B /* RAFNMainViewController.m in Sources */,
 				9DE80FE51BCCD7F100112404 /* YFPatternViewController.m in Sources */,
@@ -593,8 +645,10 @@
 				9DEF7AAC1BC2B44700E4B473 /* YFAutoTransViewController.m in Sources */,
 				9DEC92EA1BB1468600718A41 /* iOS122.xcdatamodeld in Sources */,
 				9DEC92E41BB1468600718A41 /* main.m in Sources */,
+				9D5C66F21BE0D49100D182F8 /* YFAPIManager.m in Sources */,
 				9DE8102C1BD0ED9200112404 /* YFMVCPostViewController.m in Sources */,
 				9DEF7AAF1BC2EEF100E4B473 /* YFAutoTransView.m in Sources */,
+				9D5C66FD1BE224C400D182F8 /* YFUserModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
