@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "YFHomeViewController.h"
+#import <Objection.h>
+#import "YFObjectionAppModule.h"
 
 @interface AppDelegate ()
 
@@ -29,6 +31,14 @@
     self.window.rootViewController = navVC;
     
     [self.window makeKeyAndVisible];
+    
+    /* 设置全局注射器. */
+//    JSObjectionInjector *injector = [JSObjection createInjector];
+//    [JSObjection setDefaultInjector:injector];
+
+    /* 使用自定义模块的全局注射器. */
+    JSObjectionInjector *injector = [JSObjection createInjector:[[YFObjectionAppModule alloc] init]];
+    [JSObjection setDefaultInjector:injector];
     
     return YES;
 }

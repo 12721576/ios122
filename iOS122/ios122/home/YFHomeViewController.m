@@ -20,6 +20,7 @@
 #import "YFCategoryArticleListModel.h"
 #import "YFXmlToJsonViewController.h"
 #import "YFRestClientViewController.h"
+#import "YFObjectionViewController.h"
 
 @interface YFHomeViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) UITableView * tabelView;
@@ -44,7 +45,8 @@
   @{@"title":@"一个MVVM模式的例子", @"detail": @"MVC模式例子的MVVM版本."},
   @{@"title":@"AFNetworking-RACExtensions", @"detail": @"使AFN支持RAC的库,官方实例无法直接跑起来"},
   @{@"title":@"XML转JSON文件实例", @"detail": @"wordpress xml导出文件转leancloud json导入文件"},
-  @{@"title":@"iOS Rest Client", @"detail": @"基于RAC和AFN重构LeanCloud的Rest Api"}];
+  @{@"title":@"iOS Rest Client", @"detail": @"基于RAC和AFN重构LeanCloud的Rest Api"},
+  @{@"title":@"Objection实例", @"detail": @"一个依赖注入,解决类耦合问题的库"}];
 }
 
 - (void)setTabelView:(UITableView *)tabelView
@@ -165,7 +167,12 @@
         [self.navigationController pushViewController: restVC animated: YES];
     }
     
-
+    
+    if (9 == indexPath.row) {
+        YFObjectionViewController * objectionVC = [[YFObjectionViewController alloc]init];
+        
+        [self.navigationController pushViewController: objectionVC animated: YES];
+    }
 }
 
 

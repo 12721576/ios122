@@ -15,6 +15,14 @@
 		9D5C66F71BE1C14300D182F8 /* YFRestClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C66F51BE1C14300D182F8 /* YFRestClientViewController.m */; };
 		9D5C66F81BE1C14300D182F8 /* YFRestClientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C66F61BE1C14300D182F8 /* YFRestClientViewController.xib */; };
 		9D5C66FD1BE224C400D182F8 /* YFUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C66FC1BE224C400D182F8 /* YFUserModel.m */; };
+		9DA768281BEDD67600063A6C /* YFObjectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA768271BEDD67600063A6C /* YFObjectionViewController.m */; };
+		9DA7682B1BEDD7DB00063A6C /* YFObjectionCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7682A1BEDD7DB00063A6C /* YFObjectionCar.m */; };
+		9DA7682E1BEE12FB00063A6C /* YFObjectionEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7682D1BEE12FB00063A6C /* YFObjectionEngine.m */; };
+		9DA768311BEE1A8800063A6C /* YFObjectionBrakes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA768301BEE1A8800063A6C /* YFObjectionBrakes.m */; };
+		9DA768341BEE8E6000063A6C /* YFObjectionAppModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA768331BEE8E6000063A6C /* YFObjectionAppModule.m */; };
+		9DA768371BEE954600063A6C /* YFObjectionExternalUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA768361BEE954600063A6C /* YFObjectionExternalUtility.m */; };
+		9DA7683A1BEEA36B00063A6C /* YFObjectionCarProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA768391BEEA36B00063A6C /* YFObjectionCarProvider.m */; };
+		9DA7683D1BEF3C1200063A6C /* YFObjectionRedBrakes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7683C1BEF3C1200063A6C /* YFObjectionRedBrakes.m */; };
 		9DE221FE1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE221FB1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m */; };
 		9DE221FF1BC8B39F00724A97 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9DE221FC1BC8B39F00724A97 /* LICENSE */; };
 		9DE39DE11BD791940054A79B /* YFCategoryArticleListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE39DE01BD791940054A79B /* YFCategoryArticleListModel.m */; };
@@ -80,6 +88,22 @@
 		9D5C66F61BE1C14300D182F8 /* YFRestClientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YFRestClientViewController.xib; sourceTree = "<group>"; };
 		9D5C66FB1BE224C400D182F8 /* YFUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFUserModel.h; sourceTree = "<group>"; };
 		9D5C66FC1BE224C400D182F8 /* YFUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFUserModel.m; sourceTree = "<group>"; };
+		9DA768261BEDD67600063A6C /* YFObjectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFObjectionViewController.h; sourceTree = "<group>"; };
+		9DA768271BEDD67600063A6C /* YFObjectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFObjectionViewController.m; sourceTree = "<group>"; };
+		9DA768291BEDD7DB00063A6C /* YFObjectionCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFObjectionCar.h; sourceTree = "<group>"; };
+		9DA7682A1BEDD7DB00063A6C /* YFObjectionCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFObjectionCar.m; sourceTree = "<group>"; };
+		9DA7682C1BEE12FB00063A6C /* YFObjectionEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFObjectionEngine.h; sourceTree = "<group>"; };
+		9DA7682D1BEE12FB00063A6C /* YFObjectionEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFObjectionEngine.m; sourceTree = "<group>"; };
+		9DA7682F1BEE1A8800063A6C /* YFObjectionBrakes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFObjectionBrakes.h; sourceTree = "<group>"; };
+		9DA768301BEE1A8800063A6C /* YFObjectionBrakes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFObjectionBrakes.m; sourceTree = "<group>"; };
+		9DA768321BEE8E6000063A6C /* YFObjectionAppModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFObjectionAppModule.h; sourceTree = "<group>"; };
+		9DA768331BEE8E6000063A6C /* YFObjectionAppModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFObjectionAppModule.m; sourceTree = "<group>"; };
+		9DA768351BEE954600063A6C /* YFObjectionExternalUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFObjectionExternalUtility.h; sourceTree = "<group>"; };
+		9DA768361BEE954600063A6C /* YFObjectionExternalUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFObjectionExternalUtility.m; sourceTree = "<group>"; };
+		9DA768381BEEA36B00063A6C /* YFObjectionCarProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFObjectionCarProvider.h; sourceTree = "<group>"; };
+		9DA768391BEEA36B00063A6C /* YFObjectionCarProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFObjectionCarProvider.m; sourceTree = "<group>"; };
+		9DA7683B1BEF3C1200063A6C /* YFObjectionRedBrakes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFObjectionRedBrakes.h; sourceTree = "<group>"; };
+		9DA7683C1BEF3C1200063A6C /* YFObjectionRedBrakes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFObjectionRedBrakes.m; sourceTree = "<group>"; };
 		9DE221FA1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
 		9DE221FB1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
 		9DE221FC1BC8B39F00724A97 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -223,6 +247,29 @@
 				9D5C66FC1BE224C400D182F8 /* YFUserModel.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		9DA768251BEDD65E00063A6C /* Objection */ = {
+			isa = PBXGroup;
+			children = (
+				9DA768261BEDD67600063A6C /* YFObjectionViewController.h */,
+				9DA768271BEDD67600063A6C /* YFObjectionViewController.m */,
+				9DA768291BEDD7DB00063A6C /* YFObjectionCar.h */,
+				9DA7682A1BEDD7DB00063A6C /* YFObjectionCar.m */,
+				9DA7682C1BEE12FB00063A6C /* YFObjectionEngine.h */,
+				9DA7682D1BEE12FB00063A6C /* YFObjectionEngine.m */,
+				9DA7682F1BEE1A8800063A6C /* YFObjectionBrakes.h */,
+				9DA768301BEE1A8800063A6C /* YFObjectionBrakes.m */,
+				9DA768321BEE8E6000063A6C /* YFObjectionAppModule.h */,
+				9DA768331BEE8E6000063A6C /* YFObjectionAppModule.m */,
+				9DA768351BEE954600063A6C /* YFObjectionExternalUtility.h */,
+				9DA768361BEE954600063A6C /* YFObjectionExternalUtility.m */,
+				9DA768381BEEA36B00063A6C /* YFObjectionCarProvider.h */,
+				9DA768391BEEA36B00063A6C /* YFObjectionCarProvider.m */,
+				9DA7683B1BEF3C1200063A6C /* YFObjectionRedBrakes.h */,
+				9DA7683C1BEF3C1200063A6C /* YFObjectionRedBrakes.m */,
+			);
+			path = Objection;
 			sourceTree = "<group>";
 		};
 		9DE221F71BC8B37200724A97 /* other */ = {
@@ -407,6 +454,7 @@
 		9DEC93181BB15C5A00718A41 /* samples */ = {
 			isa = PBXGroup;
 			children = (
+				9DA768251BEDD65E00063A6C /* Objection */,
 				9D5C66E71BE0C53700D182F8 /* rest */,
 				9D5C66DA1BDF884C00D182F8 /* xmlToJson */,
 				9DE39E231BD8C8460054A79B /* AFNetworking-RACExtensions */,
@@ -623,28 +671,36 @@
 				9DEC93221BB160DF00718A41 /* YFAutoLayoutCellModel.m in Sources */,
 				9DE810221BCE5FFC00112404 /* YFArticleModel.m in Sources */,
 				9DEC92E71BB1468600718A41 /* AppDelegate.m in Sources */,
+				9DA768311BEE1A8800063A6C /* YFObjectionBrakes.m in Sources */,
 				9D5C66E01BDF88B500D182F8 /* YFXmlToJsonViewController.m in Sources */,
 				9DE80FF51BCDE6E300112404 /* YFDemoComponent.m in Sources */,
+				9DA7682B1BEDD7DB00063A6C /* YFObjectionCar.m in Sources */,
 				9DE8101F1BCE5F5600112404 /* YFMVCPostListViewController.m in Sources */,
 				9DEF7AB71BC30B3400E4B473 /* YFViewComponent.m in Sources */,
 				9D5C66F71BE1C14300D182F8 /* YFRestClientViewController.m in Sources */,
 				9DE39DF61BD890A90054A79B /* YFBlogListItemViewModel.m in Sources */,
+				9DA7683D1BEF3C1200063A6C /* YFObjectionRedBrakes.m in Sources */,
 				9DE39E261BD8C8460054A79B /* RAFNMainViewController.m in Sources */,
 				9DE80FE51BCCD7F100112404 /* YFPatternViewController.m in Sources */,
+				9DA768281BEDD67600063A6C /* YFObjectionViewController.m in Sources */,
 				9DEC931C1BB15C8B00718A41 /* YFAutoLayoutCellViewController.m in Sources */,
 				9DE8104F1BD4CE1500112404 /* YFRACViewController.m in Sources */,
+				9DA768341BEE8E6000063A6C /* YFObjectionAppModule.m in Sources */,
 				9DEC931F1BB1604000718A41 /* YFAutoLayoutCell.m in Sources */,
 				9DE80FFB1BCDE7D900112404 /* YFXibDemoViewController.m in Sources */,
 				9DE221FE1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				9DA7683A1BEEA36B00063A6C /* YFObjectionCarProvider.m in Sources */,
 				9DE39DEB1BD7A23F0054A79B /* YFMVVMPostListViewController.m in Sources */,
 				9DE80FE81BCCDBDE00112404 /* YFPatternModel.m in Sources */,
 				9DE80FEB1BCCDCF600112404 /* YFArticleCollection.m in Sources */,
 				9DE39DE71BD7939B0054A79B /* YFBlogListViewModel.m in Sources */,
 				9DE39DE41BD793670054A79B /* YFBlogDetailViewModel.m in Sources */,
 				9DE80FF21BCDE5AD00112404 /* YFComponent.m in Sources */,
+				9DA7682E1BEE12FB00063A6C /* YFObjectionEngine.m in Sources */,
 				9DEF7AAC1BC2B44700E4B473 /* YFAutoTransViewController.m in Sources */,
 				9DEC92EA1BB1468600718A41 /* iOS122.xcdatamodeld in Sources */,
 				9DEC92E41BB1468600718A41 /* main.m in Sources */,
+				9DA768371BEE954600063A6C /* YFObjectionExternalUtility.m in Sources */,
 				9D5C66F21BE0D49100D182F8 /* YFAPIManager.m in Sources */,
 				9DE8102C1BD0ED9200112404 /* YFMVCPostViewController.m in Sources */,
 				9DEF7AAF1BC2EEF100E4B473 /* YFAutoTransView.m in Sources */,
