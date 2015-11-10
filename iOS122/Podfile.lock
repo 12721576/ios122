@@ -25,6 +25,7 @@ PODS:
     - AFNetworking/NSURLSession
   - Aspects (1.4.1)
   - DateTools (1.6.1)
+  - JSPatch (0.1)
   - Mantle (2.0.4):
     - Mantle/extobjc (= 2.0.4)
   - Mantle/extobjc (2.0.4)
@@ -51,6 +52,7 @@ DEPENDENCIES:
   - AFNetworking-RACExtensions
   - Aspects
   - DateTools
+  - JSPatch
   - Mantle
   - Masonry
   - MBProgressHUD
@@ -67,6 +69,7 @@ SPEC CHECKSUMS:
   AFNetworking-RACExtensions: a043c6b492fa892395ceb9d20bc4c94e96e08a57
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   DateTools: 9bcc89e4f2f9004d8a7a2bd1b49269cf78968e65
+  JSPatch: e0406038aa04e159efeac87e90abfe8fe28e58f7
   Mantle: 6bee68168423948be0c0c5924832bf3af188e099
   Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
