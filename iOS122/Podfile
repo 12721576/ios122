@@ -15,3 +15,7 @@ pod 'Aspects' # AOP
 pod 'DateTools' # 完整的日期工具库
 pod 'Objection', '1.6.1' # 依赖注入.
 pod 'JSPatch' # 在线更新应用.
+
+target :iOS122Tests, :exclusive => true do
+    pod 'Kiwi'
+end
