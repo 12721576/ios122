@@ -1,5 +1,5 @@
 //按钮事件
-defineClass('MainViewController', {//哪个类中的方法
+defineClass('YFJSPatchMainViewController', {//哪个类中的方法
   buttonTouch: function(button) {//方法名：function(参数)
 //跳转到tableView
     var tableViewCtrl = JPTableViewController.alloc().init()
@@ -40,7 +40,7 @@ defineClass('JPTableViewController : UITableViewController <UIAlertViewDelegate>
 //     alertView.show()
             
 //跳转到原生UI
-       var ruoyiming = require('TsetViewController').alloc().init()
+       var ruoyiming = require('YFJSPatchTsetViewController').alloc().init()
        self.navigationController().pushViewController_animated(ruoyiming, YES)       
   },
   alertView_willDismissWithButtonIndex: function(alertView, idx) {

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5B58BD6B2BBE93B73BC0A555 /* libPods-iOS122Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E91EE5C4121B3ED1D9EB5B /* libPods-iOS122Tests.a */; };
+		9D02E8871BFB010000227E40 /* YFSpecSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D02E8861BFB010000227E40 /* YFSpecSample.m */; };
+		9D02E88B1BFB022300227E40 /* YFKiwiSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D02E88A1BFB022300227E40 /* YFKiwiSample.m */; };
+		9D02E88D1BFB0EA200227E40 /* YFSpecExpectationsSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D02E88C1BFB0EA200227E40 /* YFSpecExpectationsSample.m */; };
+		9D02E8911BFB110100227E40 /* YFKiwiCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D02E8901BFB110100227E40 /* YFKiwiCar.m */; };
 		9D5C66E01BDF88B500D182F8 /* YFXmlToJsonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C66DE1BDF88B500D182F8 /* YFXmlToJsonViewController.m */; };
 		9D5C66E11BDF88B500D182F8 /* YFXmlToJsonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C66DF1BDF88B500D182F8 /* YFXmlToJsonViewController.xib */; };
 		9D5C66E61BE0B66100D182F8 /* Post.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C66E51BE0B66100D182F8 /* Post.xml */; };
@@ -81,6 +85,12 @@
 		334AA1737CAB2A3E5DCFD08B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E9A8E18CC10ACB98E8FBE1 /* Pods-iOS122Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS122Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS122Tests/Pods-iOS122Tests.release.xcconfig"; sourceTree = "<group>"; };
 		76E91EE5C4121B3ED1D9EB5B /* libPods-iOS122Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS122Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D02E8861BFB010000227E40 /* YFSpecSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFSpecSample.m; sourceTree = "<group>"; };
+		9D02E8891BFB022300227E40 /* YFKiwiSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFKiwiSample.h; sourceTree = "<group>"; };
+		9D02E88A1BFB022300227E40 /* YFKiwiSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFKiwiSample.m; sourceTree = "<group>"; };
+		9D02E88C1BFB0EA200227E40 /* YFSpecExpectationsSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFSpecExpectationsSample.m; sourceTree = "<group>"; };
+		9D02E88F1BFB110100227E40 /* YFKiwiCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFKiwiCar.h; sourceTree = "<group>"; };
+		9D02E8901BFB110100227E40 /* YFKiwiCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFKiwiCar.m; sourceTree = "<group>"; };
 		9D5C66DD1BDF88B500D182F8 /* YFXmlToJsonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFXmlToJsonViewController.h; sourceTree = "<group>"; };
 		9D5C66DE1BDF88B500D182F8 /* YFXmlToJsonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFXmlToJsonViewController.m; sourceTree = "<group>"; };
 		9D5C66DF1BDF88B500D182F8 /* YFXmlToJsonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YFXmlToJsonViewController.xib; sourceTree = "<group>"; };
@@ -220,6 +230,17 @@
 				74E9A8E18CC10ACB98E8FBE1 /* Pods-iOS122Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D02E8881BFB01F500227E40 /* Kiwi */ = {
+			isa = PBXGroup;
+			children = (
+				9D02E8891BFB022300227E40 /* YFKiwiSample.h */,
+				9D02E88A1BFB022300227E40 /* YFKiwiSample.m */,
+				9D02E88F1BFB110100227E40 /* YFKiwiCar.h */,
+				9D02E8901BFB110100227E40 /* YFKiwiCar.m */,
+			);
+			path = Kiwi;
 			sourceTree = "<group>";
 		};
 		9D5C66DA1BDF884C00D182F8 /* xmlToJson */ = {
@@ -458,7 +479,9 @@
 		9DEC92FD1BB1468700718A41 /* iOS122Tests */ = {
 			isa = PBXGroup;
 			children = (
+				9D02E88C1BFB0EA200227E40 /* YFSpecExpectationsSample.m */,
 				9DEC93001BB1468700718A41 /* MathSpec.m */,
+				9D02E8861BFB010000227E40 /* YFSpecSample.m */,
 				9DEC92FE1BB1468700718A41 /* Supporting Files */,
 			);
 			path = iOS122Tests;
@@ -484,6 +507,7 @@
 		9DEC93181BB15C5A00718A41 /* samples */ = {
 			isa = PBXGroup;
 			children = (
+				9D02E8881BFB01F500227E40 /* Kiwi */,
 				9DA768771BF185D800063A6C /* JSPatch */,
 				9DA768251BEDD65E00063A6C /* Objection */,
 				9D5C66E71BE0C53700D182F8 /* rest */,
@@ -764,6 +788,7 @@
 				9DA7683D1BEF3C1200063A6C /* YFObjectionRedBrakes.m in Sources */,
 				9DE39E261BD8C8460054A79B /* RAFNMainViewController.m in Sources */,
 				9DE80FE51BCCD7F100112404 /* YFPatternViewController.m in Sources */,
+				9D02E88B1BFB022300227E40 /* YFKiwiSample.m in Sources */,
 				9DA768281BEDD67600063A6C /* YFObjectionViewController.m in Sources */,
 				9DEC931C1BB15C8B00718A41 /* YFAutoLayoutCellViewController.m in Sources */,
 				9DE8104F1BD4CE1500112404 /* YFRACViewController.m in Sources */,
@@ -776,6 +801,7 @@
 				9DE39DEB1BD7A23F0054A79B /* YFMVVMPostListViewController.m in Sources */,
 				9DE80FE81BCCDBDE00112404 /* YFPatternModel.m in Sources */,
 				9DE80FEB1BCCDCF600112404 /* YFArticleCollection.m in Sources */,
+				9D02E8911BFB110100227E40 /* YFKiwiCar.m in Sources */,
 				9DE39DE71BD7939B0054A79B /* YFBlogListViewModel.m in Sources */,
 				9DA768801BF185D800063A6C /* YFJSPatchTsetViewController.m in Sources */,
 				9DE39DE41BD793670054A79B /* YFBlogDetailViewModel.m in Sources */,
@@ -797,6 +823,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DEC93011BB1468700718A41 /* MathSpec.m in Sources */,
+				9D02E8871BFB010000227E40 /* YFSpecSample.m in Sources */,
+				9D02E88D1BFB0EA200227E40 /* YFSpecExpectationsSample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
