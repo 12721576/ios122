@@ -11,6 +11,14 @@
 @interface YFKiwiCar : NSObject
 @property (strong ,nonatomic) NSArray * wheels; //!< 车轮.
 @property (assign, nonatomic) CGFloat speed; //!< 速度.
+@property (assign, nonatomic) NSInteger currentGear;
 
 - (BOOL)changeToGear:(NSInteger) gear;
+
+- (void)jumpToStarSystemWithIndex: (CGFloat) index;
+
+- (void)applyBrakes;
+
+- (void)speak: (NSString *) str;
+- (void)speak:(NSString *)str afterDelay:(NSInteger) delay whenDone: (void (^)())block;
 @end

@@ -91,6 +91,7 @@
 		9D02E88C1BFB0EA200227E40 /* YFSpecExpectationsSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFSpecExpectationsSample.m; sourceTree = "<group>"; };
 		9D02E88F1BFB110100227E40 /* YFKiwiCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFKiwiCar.h; sourceTree = "<group>"; };
 		9D02E8901BFB110100227E40 /* YFKiwiCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFKiwiCar.m; sourceTree = "<group>"; };
+		9D0E003F1BFDD2D000476B5F /* YFKiwiFlyingMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFKiwiFlyingMachine.h; sourceTree = "<group>"; };
 		9D5C66DD1BDF88B500D182F8 /* YFXmlToJsonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFXmlToJsonViewController.h; sourceTree = "<group>"; };
 		9D5C66DE1BDF88B500D182F8 /* YFXmlToJsonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFXmlToJsonViewController.m; sourceTree = "<group>"; };
 		9D5C66DF1BDF88B500D182F8 /* YFXmlToJsonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YFXmlToJsonViewController.xib; sourceTree = "<group>"; };
@@ -239,6 +240,7 @@
 				9D02E88A1BFB022300227E40 /* YFKiwiSample.m */,
 				9D02E88F1BFB110100227E40 /* YFKiwiCar.h */,
 				9D02E8901BFB110100227E40 /* YFKiwiCar.m */,
+				9D0E003F1BFDD2D000476B5F /* YFKiwiFlyingMachine.h */,
 			);
 			path = Kiwi;
 			sourceTree = "<group>";
