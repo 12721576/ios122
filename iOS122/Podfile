@@ -16,6 +16,17 @@ pod 'DateTools' # 完整的日期工具库
 pod 'Objection', '1.6.1' # 依赖注入.
 pod 'JSPatch' # 在线更新应用.
 
+# Depending on how your project is organized, your node_modules directory may be
+# somewhere else; tell CocoaPods where you've installed react-native from npm
+pod 'React', :path => './node_modules/react-native', :subspecs => [
+'Core',
+'RCTImage',
+'RCTNetwork',
+'RCTText',
+'RCTWebSocket',
+# Add any other subspecs you want to use in your project
+]
+
 target :iOS122Tests, :exclusive => true do
     pod 'Kiwi'
 end

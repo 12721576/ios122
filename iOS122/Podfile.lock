@@ -37,6 +37,16 @@ PODS:
   - Objection (1.6.1)
   - Ono (1.2.2)
   - pop (1.0.7)
+  - React/Core (0.14.2)
+  - React/RCTImage (0.14.2):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.14.2):
+    - React/Core
+  - React/RCTText (0.14.2):
+    - React/Core
+  - React/RCTWebSocket (0.14.2):
+    - React/Core
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
   - ReactiveCocoa/Core (2.5):
@@ -63,8 +73,17 @@ DEPENDENCIES:
   - Objection (= 1.6.1)
   - Ono
   - pop
+  - React/Core (from `./node_modules/react-native`)
+  - React/RCTImage (from `./node_modules/react-native`)
+  - React/RCTNetwork (from `./node_modules/react-native`)
+  - React/RCTText (from `./node_modules/react-native`)
+  - React/RCTWebSocket (from `./node_modules/react-native`)
   - ReactiveCocoa
   - SDWebImage
+
+EXTERNAL SOURCES:
+  React:
+    :path: ./node_modules/react-native
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
@@ -81,6 +100,7 @@ SPEC CHECKSUMS:
   Objection: ed03f2219cb22d2b5b893114219fe6c7e3263bde
   Ono: 80b1c686777d3f6d5d5ce6fcac8a74afef4ca197
   pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  React: e0dc1498eee8800999917f437a027223f49d731d
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
 
