@@ -22,6 +22,7 @@
 #import "YFRestClientViewController.h"
 #import "YFObjectionViewController.h"
 #import "YFJSPatchMainViewController.h"
+#import "YFReactViewController.h"
 
 @interface YFHomeViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) UITableView * tabelView;
@@ -48,7 +49,8 @@
   @{@"title":@"XML转JSON文件实例", @"detail": @"wordpress xml导出文件转leancloud json导入文件"},
   @{@"title":@"iOS Rest Client", @"detail": @"基于RAC和AFN重构LeanCloud的Rest Api"},
   @{@"title":@"Objection实例", @"detail": @"一个依赖注入,解决类耦合问题的库"},
-  @{@"title":@"JSPatch 实例", @"detail": @"一个Apple官方支持的实现在线更新iOS应用的库"}];
+  @{@"title":@"JSPatch 实例", @"detail": @"一个Apple官方支持的实现在线更新iOS应用的库"},
+  @{@"title":@"ReactNative(请使用模拟器运行,真机需改IP.)", @"detail": @"正确配置React,在应用根目录执行命令(JS_DIR= ./ReactComponent/iOS; cd node_modules/react-native/React; npm run start -- --root $JS_DIR)"}];
 }
 
 - (void)setTabelView:(UITableView *)tabelView
@@ -183,6 +185,14 @@
         
         [self.navigationController pushViewController: jspatchVC animated: YES];
     }
+    
+    
+    if (11 == indexPath.row) {
+        YFReactViewController * reactVC = [[YFReactViewController alloc]init];
+        
+        [self.navigationController pushViewController: reactVC animated: YES];
+    }
+
 }
 
 

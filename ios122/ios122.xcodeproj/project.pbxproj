@@ -12,6 +12,7 @@
 		9D02E88B1BFB022300227E40 /* YFKiwiSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D02E88A1BFB022300227E40 /* YFKiwiSample.m */; };
 		9D02E88D1BFB0EA200227E40 /* YFSpecExpectationsSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D02E88C1BFB0EA200227E40 /* YFSpecExpectationsSample.m */; };
 		9D02E8911BFB110100227E40 /* YFKiwiCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D02E8901BFB110100227E40 /* YFKiwiCar.m */; };
+		9D25FCA91C01BD7400AAB86E /* YFReactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D25FCA81C01BD7400AAB86E /* YFReactViewController.m */; };
 		9D5C66E01BDF88B500D182F8 /* YFXmlToJsonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C66DE1BDF88B500D182F8 /* YFXmlToJsonViewController.m */; };
 		9D5C66E11BDF88B500D182F8 /* YFXmlToJsonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C66DF1BDF88B500D182F8 /* YFXmlToJsonViewController.xib */; };
 		9D5C66E61BE0B66100D182F8 /* Post.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C66E51BE0B66100D182F8 /* Post.xml */; };
@@ -92,6 +93,8 @@
 		9D02E88F1BFB110100227E40 /* YFKiwiCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFKiwiCar.h; sourceTree = "<group>"; };
 		9D02E8901BFB110100227E40 /* YFKiwiCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFKiwiCar.m; sourceTree = "<group>"; };
 		9D0E003F1BFDD2D000476B5F /* YFKiwiFlyingMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFKiwiFlyingMachine.h; sourceTree = "<group>"; };
+		9D25FCA71C01BD7400AAB86E /* YFReactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFReactViewController.h; sourceTree = "<group>"; };
+		9D25FCA81C01BD7400AAB86E /* YFReactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFReactViewController.m; sourceTree = "<group>"; };
 		9D5C66DD1BDF88B500D182F8 /* YFXmlToJsonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFXmlToJsonViewController.h; sourceTree = "<group>"; };
 		9D5C66DE1BDF88B500D182F8 /* YFXmlToJsonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFXmlToJsonViewController.m; sourceTree = "<group>"; };
 		9D5C66DF1BDF88B500D182F8 /* YFXmlToJsonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YFXmlToJsonViewController.xib; sourceTree = "<group>"; };
@@ -243,6 +246,15 @@
 				9D0E003F1BFDD2D000476B5F /* YFKiwiFlyingMachine.h */,
 			);
 			path = Kiwi;
+			sourceTree = "<group>";
+		};
+		9D25FCA31C01B81300AAB86E /* react */ = {
+			isa = PBXGroup;
+			children = (
+				9D25FCA71C01BD7400AAB86E /* YFReactViewController.h */,
+				9D25FCA81C01BD7400AAB86E /* YFReactViewController.m */,
+			);
+			path = react;
 			sourceTree = "<group>";
 		};
 		9D5C66DA1BDF884C00D182F8 /* xmlToJson */ = {
@@ -509,6 +521,7 @@
 		9DEC93181BB15C5A00718A41 /* samples */ = {
 			isa = PBXGroup;
 			children = (
+				9D25FCA31C01B81300AAB86E /* react */,
 				9D02E8881BFB01F500227E40 /* Kiwi */,
 				9DA768771BF185D800063A6C /* JSPatch */,
 				9DA768251BEDD65E00063A6C /* Objection */,
@@ -816,6 +829,7 @@
 				9D5C66F21BE0D49100D182F8 /* YFAPIManager.m in Sources */,
 				9DE8102C1BD0ED9200112404 /* YFMVCPostViewController.m in Sources */,
 				9DEF7AAF1BC2EEF100E4B473 /* YFAutoTransView.m in Sources */,
+				9D25FCA91C01BD7400AAB86E /* YFReactViewController.m in Sources */,
 				9D5C66FD1BE224C400D182F8 /* YFUserModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
