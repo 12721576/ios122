@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FXForms.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>JSPatch.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -102,7 +107,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1784EB6D967B3F0CAB8341DCDA839DAF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>1C55783D561F5A62C541C6046C0B124E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>21C004BF899E123FDE4329A959C19711</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -118,16 +133,6 @@
 			<true/>
 		</dict>
 		<key>2F5FF057E47D9C8790E025CED0259180</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>31425931B52B4A077C9094505D7787A1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3C20F1B9505242B1E4E16036D57C3E8B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -152,6 +157,16 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>6FADC9748C9E9A456DDDB0C46557F32A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>79469CBF9271EF75C575F818AEE12ABF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>7AE61E8C610008A64C61A082255D0E90</key>
 		<dict>
 			<key>primary</key>
@@ -172,17 +187,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>DA25FDE1017A4EAD5CD688469BA9EDE4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>DBC9A0AF6D4571D059D2AF2422F2BD6E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E438756C7201F86DF730883ECF646761</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EAF15BF1C914235561272F5C0EF7FB30</key>
 		<dict>
 			<key>primary</key>
 			<true/>

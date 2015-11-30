@@ -23,6 +23,7 @@
 #import "YFObjectionViewController.h"
 #import "YFJSPatchMainViewController.h"
 #import "YFReactViewController.h"
+#import "YFFXFormsLoginViewController.h"
 
 @interface YFHomeViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) UITableView * tabelView;
@@ -50,7 +51,8 @@
   @{@"title":@"iOS Rest Client", @"detail": @"基于RAC和AFN重构LeanCloud的Rest Api"},
   @{@"title":@"Objection实例", @"detail": @"一个依赖注入,解决类耦合问题的库"},
   @{@"title":@"JSPatch 实例", @"detail": @"一个Apple官方支持的实现在线更新iOS应用的库"},
-  @{@"title":@"ReactNative(请使用模拟器运行,真机需改IP.)", @"detail": @"正确配置React,在应用根目录执行命令(JS_DIR= ./ReactComponent/iOS; cd node_modules/react-native/React; npm run start -- --root $JS_DIR)"}];
+  @{@"title":@"ReactNative(请使用模拟器运行,真机需改IP.)", @"detail": @"正确配置React,在应用根目录执行命令(JS_DIR= ./ReactComponent/iOS; cd node_modules/react-native/React; npm run start -- --root $JS_DIR)"},
+  @{@"title":@"FXForms示例", @"detail": @"FXForms自动生成表单示例"}];
 }
 
 - (void)setTabelView:(UITableView *)tabelView
@@ -192,6 +194,13 @@
         
         [self.navigationController pushViewController: reactVC animated: YES];
     }
+    
+    if (12 == indexPath.row) {
+        YFFXFormsLoginViewController * vc = [[YFFXFormsLoginViewController alloc]init];
+        
+        [self.navigationController pushViewController: vc animated: YES];
+    }
+
 
 }
 

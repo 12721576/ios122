@@ -25,6 +25,7 @@ PODS:
     - AFNetworking/NSURLSession
   - Aspects (1.4.1)
   - DateTools (1.6.1)
+  - FXForms (1.2.13)
   - JSPatch (0.1)
   - Kiwi (2.4.0)
   - Mantle (2.0.4):
@@ -63,6 +64,7 @@ DEPENDENCIES:
   - AFNetworking-RACExtensions
   - Aspects
   - DateTools
+  - FXForms
   - JSPatch
   - Kiwi
   - Mantle
@@ -90,6 +92,7 @@ SPEC CHECKSUMS:
   AFNetworking-RACExtensions: a043c6b492fa892395ceb9d20bc4c94e96e08a57
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   DateTools: 9bcc89e4f2f9004d8a7a2bd1b49269cf78968e65
+  FXForms: 22d5ceafd8ca44d2f2be4827afcf00aaf80184a5
   JSPatch: e0406038aa04e159efeac87e90abfe8fe28e58f7
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
   Mantle: 6bee68168423948be0c0c5924832bf3af188e099

@@ -33,6 +33,8 @@
 		9DA7687F1BF185D800063A6C /* YFJSPatchMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7687A1BF185D800063A6C /* YFJSPatchMainViewController.m */; };
 		9DA768801BF185D800063A6C /* YFJSPatchTsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7687C1BF185D800063A6C /* YFJSPatchTsetViewController.m */; };
 		9DA768811BF185D800063A6C /* view.js in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7687D1BF185D800063A6C /* view.js */; };
+		9DD09ECE1C0C16830046F719 /* YFFXFormsLoginFXForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD09ECB1C0C16830046F719 /* YFFXFormsLoginFXForm.m */; };
+		9DD09ECF1C0C16830046F719 /* YFFXFormsLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD09ECD1C0C16830046F719 /* YFFXFormsLoginViewController.m */; };
 		9DE221FE1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE221FB1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m */; };
 		9DE221FF1BC8B39F00724A97 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9DE221FC1BC8B39F00724A97 /* LICENSE */; };
 		9DE39DE11BD791940054A79B /* YFCategoryArticleListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE39DE01BD791940054A79B /* YFCategoryArticleListModel.m */; };
@@ -131,6 +133,10 @@
 		9DA7687B1BF185D800063A6C /* YFJSPatchTsetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFJSPatchTsetViewController.h; sourceTree = "<group>"; };
 		9DA7687C1BF185D800063A6C /* YFJSPatchTsetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFJSPatchTsetViewController.m; sourceTree = "<group>"; };
 		9DA7687D1BF185D800063A6C /* view.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = view.js; sourceTree = "<group>"; };
+		9DD09ECA1C0C16830046F719 /* YFFXFormsLoginFXForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFFXFormsLoginFXForm.h; sourceTree = "<group>"; };
+		9DD09ECB1C0C16830046F719 /* YFFXFormsLoginFXForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFFXFormsLoginFXForm.m; sourceTree = "<group>"; };
+		9DD09ECC1C0C16830046F719 /* YFFXFormsLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFFXFormsLoginViewController.h; sourceTree = "<group>"; };
+		9DD09ECD1C0C16830046F719 /* YFFXFormsLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFFXFormsLoginViewController.m; sourceTree = "<group>"; };
 		9DE221FA1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
 		9DE221FB1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
 		9DE221FC1BC8B39F00724A97 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -337,6 +343,17 @@
 			path = JSPatch;
 			sourceTree = "<group>";
 		};
+		9DD09EC91C0C162E0046F719 /* FXForms */ = {
+			isa = PBXGroup;
+			children = (
+				9DD09ECA1C0C16830046F719 /* YFFXFormsLoginFXForm.h */,
+				9DD09ECB1C0C16830046F719 /* YFFXFormsLoginFXForm.m */,
+				9DD09ECC1C0C16830046F719 /* YFFXFormsLoginViewController.h */,
+				9DD09ECD1C0C16830046F719 /* YFFXFormsLoginViewController.m */,
+			);
+			path = FXForms;
+			sourceTree = "<group>";
+		};
 		9DE221F71BC8B37200724A97 /* other */ = {
 			isa = PBXGroup;
 			children = (
@@ -521,6 +538,7 @@
 		9DEC93181BB15C5A00718A41 /* samples */ = {
 			isa = PBXGroup;
 			children = (
+				9DD09EC91C0C162E0046F719 /* FXForms */,
 				9D25FCA31C01B81300AAB86E /* react */,
 				9D02E8881BFB01F500227E40 /* Kiwi */,
 				9DA768771BF185D800063A6C /* JSPatch */,
@@ -793,8 +811,10 @@
 				9DE810221BCE5FFC00112404 /* YFArticleModel.m in Sources */,
 				9DEC92E71BB1468600718A41 /* AppDelegate.m in Sources */,
 				9DA768311BEE1A8800063A6C /* YFObjectionBrakes.m in Sources */,
+				9DD09ECF1C0C16830046F719 /* YFFXFormsLoginViewController.m in Sources */,
 				9D5C66E01BDF88B500D182F8 /* YFXmlToJsonViewController.m in Sources */,
 				9DE80FF51BCDE6E300112404 /* YFDemoComponent.m in Sources */,
+				9DD09ECE1C0C16830046F719 /* YFFXFormsLoginFXForm.m in Sources */,
 				9DA7682B1BEDD7DB00063A6C /* YFObjectionCar.m in Sources */,
 				9DE8101F1BCE5F5600112404 /* YFMVCPostListViewController.m in Sources */,
 				9DEF7AB71BC30B3400E4B473 /* YFViewComponent.m in Sources */,
