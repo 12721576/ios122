@@ -31,7 +31,7 @@
         NSString * key = [manager cacheKeyForURL: imageURL];
         
         /* 存相册前,要先清一下内存缓存,否则会导致内存无法释放.[缓存机制和相册写入机制的内部冲突,源码不可见,真实原因未知] */
-        [manager.imageCache removeImageForKey:key fromDisk: YES withCompletion:^{
+        [manager.imageCache removeImageForKey:key fromDisk: NO withCompletion:^{
             ALAssetsLibrary * library = [[ALAssetsLibrary alloc] init];
             
             [library saveImage:image toAlbum:@"iOS122" withCompletionBlock:^(NSURL *assetUrl, NSError *error) {
