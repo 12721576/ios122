@@ -15,7 +15,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+
     SDWebImageManager * manager = [SDWebImageManager sharedManager];
     
     NSURL * url = [NSURL URLWithString: @"http://yun.mochi.shufawu.com/hd_data/201587/105111/o_19s31334ve4m138a1b2b1c86aj7g"];
@@ -28,11 +28,17 @@
             return;
         }
         
-        ALAssetsLibrary * library = [[ALAssetsLibrary alloc] init];
+        NSString * key = [manager cacheKeyForURL: imageURL];
         
-        [library saveImage:image toAlbum:@"iOS122" withCompletionBlock:^(NSURL *assetUrl, NSError *error) {
-            NSLog(@"%@ %@", assetUrl, error);
+        /* 存相册前,要先清一下内存缓存,否则会导致内存无法释放.[缓存机制和相册写入机制的内部冲突,源码不可见,真实原因未知] */
+        [manager.imageCache removeImageForKey:key fromDisk: YES withCompletion:^{
+            ALAssetsLibrary * library = [[ALAssetsLibrary alloc] init];
+            
+            [library saveImage:image toAlbum:@"iOS122" withCompletionBlock:^(NSURL *assetUrl, NSError *error) {
+                NSLog(@"%@ %@", assetUrl, error);
+            }];
         }];
+        
     }];
 }
 @end
