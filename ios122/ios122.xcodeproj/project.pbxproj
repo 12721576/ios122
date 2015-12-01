@@ -35,6 +35,8 @@
 		9DA768811BF185D800063A6C /* view.js in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7687D1BF185D800063A6C /* view.js */; };
 		9DD09ECE1C0C16830046F719 /* YFFXFormsLoginFXForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD09ECB1C0C16830046F719 /* YFFXFormsLoginFXForm.m */; };
 		9DD09ECF1C0C16830046F719 /* YFFXFormsLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD09ECD1C0C16830046F719 /* YFFXFormsLoginViewController.m */; };
+		9DD09ED31C0D698A0046F719 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD09ED21C0D698A0046F719 /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
+		9DD09ED61C0D69BE0046F719 /* YFCustomPhotoAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD09ED51C0D69BE0046F719 /* YFCustomPhotoAlbumViewController.m */; };
 		9DE221FE1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE221FB1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m */; };
 		9DE221FF1BC8B39F00724A97 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9DE221FC1BC8B39F00724A97 /* LICENSE */; };
 		9DE39DE11BD791940054A79B /* YFCategoryArticleListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE39DE01BD791940054A79B /* YFCategoryArticleListModel.m */; };
@@ -137,6 +139,10 @@
 		9DD09ECB1C0C16830046F719 /* YFFXFormsLoginFXForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFFXFormsLoginFXForm.m; sourceTree = "<group>"; };
 		9DD09ECC1C0C16830046F719 /* YFFXFormsLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFFXFormsLoginViewController.h; sourceTree = "<group>"; };
 		9DD09ECD1C0C16830046F719 /* YFFXFormsLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFFXFormsLoginViewController.m; sourceTree = "<group>"; };
+		9DD09ED11C0D698A0046F719 /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
+		9DD09ED21C0D698A0046F719 /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
+		9DD09ED41C0D69BE0046F719 /* YFCustomPhotoAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFCustomPhotoAlbumViewController.h; sourceTree = "<group>"; };
+		9DD09ED51C0D69BE0046F719 /* YFCustomPhotoAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFCustomPhotoAlbumViewController.m; sourceTree = "<group>"; };
 		9DE221FA1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
 		9DE221FB1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
 		9DE221FC1BC8B39F00724A97 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -354,6 +360,17 @@
 			path = FXForms;
 			sourceTree = "<group>";
 		};
+		9DD09ED01C0D698A0046F719 /* ALAssetsLibrary+CustomPhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				9DD09ED11C0D698A0046F719 /* ALAssetsLibrary+CustomPhotoAlbum.h */,
+				9DD09ED21C0D698A0046F719 /* ALAssetsLibrary+CustomPhotoAlbum.m */,
+				9DD09ED41C0D69BE0046F719 /* YFCustomPhotoAlbumViewController.h */,
+				9DD09ED51C0D69BE0046F719 /* YFCustomPhotoAlbumViewController.m */,
+			);
+			path = "ALAssetsLibrary+CustomPhotoAlbum";
+			sourceTree = "<group>";
+		};
 		9DE221F71BC8B37200724A97 /* other */ = {
 			isa = PBXGroup;
 			children = (
@@ -538,6 +555,7 @@
 		9DEC93181BB15C5A00718A41 /* samples */ = {
 			isa = PBXGroup;
 			children = (
+				9DD09ED01C0D698A0046F719 /* ALAssetsLibrary+CustomPhotoAlbum */,
 				9DD09EC91C0C162E0046F719 /* FXForms */,
 				9D25FCA31C01B81300AAB86E /* react */,
 				9D02E8881BFB01F500227E40 /* Kiwi */,
@@ -803,6 +821,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DD09ED31C0D698A0046F719 /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 				9D5C66EF1BE0D3E000D182F8 /* YFPostModel.m in Sources */,
 				9DEC93161BB14FA300718A41 /* YFHomeViewController.m in Sources */,
 				9DE39DEE1BD7A2580054A79B /* YFMVVMPostViewController.m in Sources */,
@@ -837,6 +856,7 @@
 				9DE80FE81BCCDBDE00112404 /* YFPatternModel.m in Sources */,
 				9DE80FEB1BCCDCF600112404 /* YFArticleCollection.m in Sources */,
 				9D02E8911BFB110100227E40 /* YFKiwiCar.m in Sources */,
+				9DD09ED61C0D69BE0046F719 /* YFCustomPhotoAlbumViewController.m in Sources */,
 				9DE39DE71BD7939B0054A79B /* YFBlogListViewModel.m in Sources */,
 				9DA768801BF185D800063A6C /* YFJSPatchTsetViewController.m in Sources */,
 				9DE39DE41BD793670054A79B /* YFBlogDetailViewModel.m in Sources */,
