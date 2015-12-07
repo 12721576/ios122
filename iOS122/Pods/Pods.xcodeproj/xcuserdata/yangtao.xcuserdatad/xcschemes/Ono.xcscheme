@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '3F393EC41CF34F09FBCF6988'
+               BlueprintIdentifier = '307F9F1B122682AB37B6D333'
                BlueprintName = 'Ono'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libOno.a'>

@@ -37,6 +37,7 @@ PODS:
   - MJRefresh (2.4.7)
   - Objection (1.6.1)
   - Ono (1.2.2)
+  - PINCache (2.0)
   - pop (1.0.7)
   - React/Core (0.14.2)
   - React/RCTImage (0.14.2):
@@ -74,6 +75,7 @@ DEPENDENCIES:
   - MJRefresh
   - Objection (= 1.6.1)
   - Ono
+  - PINCache
   - pop
   - React/Core (from `./node_modules/react-native`)
   - React/RCTImage (from `./node_modules/react-native`)
@@ -102,6 +104,7 @@ SPEC CHECKSUMS:
   MJRefresh: 6eb2f61338f89f64fd628fd43debcf479381ff59
   Objection: ed03f2219cb22d2b5b893114219fe6c7e3263bde
   Ono: 80b1c686777d3f6d5d5ce6fcac8a74afef4ca197
+  PINCache: ca953ba93ce1edde056fdd99121ee65b295a08c9
   pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
   React: e0dc1498eee8800999917f437a027223f49d731d
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a

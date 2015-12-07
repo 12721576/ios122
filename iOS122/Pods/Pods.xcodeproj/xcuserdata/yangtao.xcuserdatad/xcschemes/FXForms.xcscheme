@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D3D534FCBFF819B2BA820578'
+               BlueprintIdentifier = '43331A7043611B34D48E37BB'
                BlueprintName = 'FXForms'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libFXForms.a'>

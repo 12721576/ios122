@@ -11,13 +11,16 @@
 #import <Objection.h>
 #import "YFObjectionBrakes.h"
 #import "YFObjectionExternalUtility.h"
-#import "YFObjectionAppModule.h"
+#import "YFAppModule.h"
 
 @implementation YFObjectionViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    UIAlertView * alertView = [[UIAlertView alloc] initWithTitle:@"温馨提示" message:@"详见控制台输出" delegate:nil cancelButtonTitle:@"好" otherButtonTitles:nil, nil];
+    [alertView show];
     
     // 使用正常方式初始化.
 //    YFObjectionCar * car = [[YFObjectionCar alloc] init];
@@ -75,11 +78,11 @@
     NSLog(@"%@", carS2);
     
     // 派生新的注射器.
-    JSObjectionInjector * newInjector = [[JSObjection defaultInjector] withModule:[[YFObjectionAppModule alloc] init]];
+    JSObjectionInjector * newInjector = [[JSObjection defaultInjector] withModule:[[YFAppModule alloc] init]];
     NSLog(@"%@", newInjector);
     
     
-    JSObjectionInjector *injector2 = [[JSObjection createInjector:[[YFObjectionAppModule alloc] init]] withoutModuleOfType:[YFObjectionAppModule class]];
+    JSObjectionInjector *injector2 = [[JSObjection createInjector:[[YFAppModule alloc] init]] withoutModuleOfType:[YFAppModule class]];
     NSLog(@"%@", injector2);
 
     // 自定义初始化参数

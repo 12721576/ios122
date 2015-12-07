@@ -25,6 +25,7 @@
 #import "YFReactViewController.h"
 #import "YFFXFormsLoginViewController.h"
 #import "YFCustomPhotoAlbumViewController.h"
+#import "YFJSPatchOnlineViewController.h"
 
 @interface YFHomeViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) UITableView * tabelView;
@@ -54,7 +55,8 @@
   @{@"title":@"JSPatch 实例", @"detail": @"一个Apple官方支持的实现在线更新iOS应用的库"},
   @{@"title":@"ReactNative(请使用模拟器运行,真机需改IP.)", @"detail": @"正确配置React,在应用根目录执行命令(JS_DIR= ./ReactComponent/iOS; cd node_modules/react-native/React; npm run start -- --root $JS_DIR)"},
   @{@"title":@"FXForms示例", @"detail": @"FXForms自动生成表单示例"},
-  @{@"title":@"保存网络图片到自定义相册", @"detail": @"使用SD下载图片,使用另一个第三方库保存."}];
+  @{@"title":@"保存网络图片到自定义相册", @"detail": @"使用SD下载图片,使用另一个第三方库保存."},
+  @{@"title":@"JSPatch补丁实例", @"detail": @"更新成功会弹窗提示 我是一个补丁"}];
 }
 
 - (void)setTabelView:(UITableView *)tabelView
@@ -204,12 +206,18 @@
     }
     
     
-    
     if (13 == indexPath.row) {
         YFCustomPhotoAlbumViewController * vc = [[YFCustomPhotoAlbumViewController alloc]init];
         
         [self.navigationController pushViewController: vc animated: YES];
     }
+    
+    if (14 == indexPath.row) {
+        YFJSPatchOnlineViewController * vc = [[YFJSPatchOnlineViewController alloc]init];
+        
+        [self.navigationController pushViewController: vc animated: YES];
+    }
+
 
 }
 

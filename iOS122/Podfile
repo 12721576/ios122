@@ -16,6 +16,7 @@ pod 'DateTools' # 完整的日期工具库
 pod 'Objection', '1.6.1' # 依赖注入.
 pod 'JSPatch' # 在线更新应用.
 pod 'FXForms' # 自动生成表单
+pod 'PINCache' # 缓存库.
 
 # Depending on how your project is organized, your node_modules directory may be
 # somewhere else; tell CocoaPods where you've installed react-native from npm

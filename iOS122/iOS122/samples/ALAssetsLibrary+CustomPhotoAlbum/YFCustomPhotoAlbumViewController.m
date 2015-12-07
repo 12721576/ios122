@@ -18,7 +18,7 @@
 
     SDWebImageManager * manager = [SDWebImageManager sharedManager];
     
-    NSURL * url = [NSURL URLWithString: @"http://yun.mochi.shufawu.com/hd_data/201587/105111/o_19s31334ve4m138a1b2b1c86aj7g"];
+    NSURL * url = [NSURL URLWithString: @"http://yun.iOS122.shufawu.com/hd_data/201587/105111/o_19s31334ve4m138a1b2b1c86aj7g"];
     [manager downloadImageWithURL: url options: 0 progress:^(NSInteger receivedSize, NSInteger expectedSize) {
         NSLog(@"%g", receivedSize * 1.0 / expectedSize);
     } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {

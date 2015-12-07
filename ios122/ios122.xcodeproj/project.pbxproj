@@ -21,11 +21,15 @@
 		9D5C66F71BE1C14300D182F8 /* YFRestClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C66F51BE1C14300D182F8 /* YFRestClientViewController.m */; };
 		9D5C66F81BE1C14300D182F8 /* YFRestClientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C66F61BE1C14300D182F8 /* YFRestClientViewController.xib */; };
 		9D5C66FD1BE224C400D182F8 /* YFUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C66FC1BE224C400D182F8 /* YFUserModel.m */; };
+		9DA1D63A1C15237D00EEEC98 /* YFJSPatchOnlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1D6391C15237D00EEEC98 /* YFJSPatchOnlineViewController.m */; };
+		9DA1D6401C15250500EEEC98 /* YFPatchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1D63D1C15250500EEEC98 /* YFPatchModel.m */; };
+		9DA1D6411C15250500EEEC98 /* YFPatchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1D63F1C15250500EEEC98 /* YFPatchViewModel.m */; };
+		9DA1D6461C15266D00EEEC98 /* YFAppModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1D6441C15266D00EEEC98 /* YFAppModule.m */; };
+		9DA1D6491C15297B00EEEC98 /* YFPatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1D6481C15297B00EEEC98 /* YFPatchRequest.m */; };
 		9DA768281BEDD67600063A6C /* YFObjectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA768271BEDD67600063A6C /* YFObjectionViewController.m */; };
 		9DA7682B1BEDD7DB00063A6C /* YFObjectionCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7682A1BEDD7DB00063A6C /* YFObjectionCar.m */; };
 		9DA7682E1BEE12FB00063A6C /* YFObjectionEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7682D1BEE12FB00063A6C /* YFObjectionEngine.m */; };
 		9DA768311BEE1A8800063A6C /* YFObjectionBrakes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA768301BEE1A8800063A6C /* YFObjectionBrakes.m */; };
-		9DA768341BEE8E6000063A6C /* YFObjectionAppModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA768331BEE8E6000063A6C /* YFObjectionAppModule.m */; };
 		9DA768371BEE954600063A6C /* YFObjectionExternalUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA768361BEE954600063A6C /* YFObjectionExternalUtility.m */; };
 		9DA7683A1BEEA36B00063A6C /* YFObjectionCarProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA768391BEEA36B00063A6C /* YFObjectionCarProvider.m */; };
 		9DA7683D1BEF3C1200063A6C /* YFObjectionRedBrakes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7683C1BEF3C1200063A6C /* YFObjectionRedBrakes.m */; };
@@ -113,6 +117,17 @@
 		9D5C66F61BE1C14300D182F8 /* YFRestClientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YFRestClientViewController.xib; sourceTree = "<group>"; };
 		9D5C66FB1BE224C400D182F8 /* YFUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFUserModel.h; sourceTree = "<group>"; };
 		9D5C66FC1BE224C400D182F8 /* YFUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFUserModel.m; sourceTree = "<group>"; };
+		9DA1D6381C15237D00EEEC98 /* YFJSPatchOnlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFJSPatchOnlineViewController.h; sourceTree = "<group>"; };
+		9DA1D6391C15237D00EEEC98 /* YFJSPatchOnlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFJSPatchOnlineViewController.m; sourceTree = "<group>"; };
+		9DA1D63C1C15250500EEEC98 /* YFPatchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFPatchModel.h; sourceTree = "<group>"; };
+		9DA1D63D1C15250500EEEC98 /* YFPatchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFPatchModel.m; sourceTree = "<group>"; };
+		9DA1D63E1C15250500EEEC98 /* YFPatchViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFPatchViewModel.h; sourceTree = "<group>"; };
+		9DA1D63F1C15250500EEEC98 /* YFPatchViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFPatchViewModel.m; sourceTree = "<group>"; };
+		9DA1D6431C15266D00EEEC98 /* YFAppModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFAppModule.h; sourceTree = "<group>"; };
+		9DA1D6441C15266D00EEEC98 /* YFAppModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFAppModule.m; sourceTree = "<group>"; };
+		9DA1D6451C15266D00EEEC98 /* YFAppModuleDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFAppModuleDelegate.h; sourceTree = "<group>"; };
+		9DA1D6471C15297B00EEEC98 /* YFPatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFPatchRequest.h; sourceTree = "<group>"; };
+		9DA1D6481C15297B00EEEC98 /* YFPatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFPatchRequest.m; sourceTree = "<group>"; };
 		9DA768261BEDD67600063A6C /* YFObjectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFObjectionViewController.h; sourceTree = "<group>"; };
 		9DA768271BEDD67600063A6C /* YFObjectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFObjectionViewController.m; sourceTree = "<group>"; };
 		9DA768291BEDD7DB00063A6C /* YFObjectionCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFObjectionCar.h; sourceTree = "<group>"; };
@@ -121,8 +136,6 @@
 		9DA7682D1BEE12FB00063A6C /* YFObjectionEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFObjectionEngine.m; sourceTree = "<group>"; };
 		9DA7682F1BEE1A8800063A6C /* YFObjectionBrakes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFObjectionBrakes.h; sourceTree = "<group>"; };
 		9DA768301BEE1A8800063A6C /* YFObjectionBrakes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFObjectionBrakes.m; sourceTree = "<group>"; };
-		9DA768321BEE8E6000063A6C /* YFObjectionAppModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFObjectionAppModule.h; sourceTree = "<group>"; };
-		9DA768331BEE8E6000063A6C /* YFObjectionAppModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFObjectionAppModule.m; sourceTree = "<group>"; };
 		9DA768351BEE954600063A6C /* YFObjectionExternalUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFObjectionExternalUtility.h; sourceTree = "<group>"; };
 		9DA768361BEE954600063A6C /* YFObjectionExternalUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFObjectionExternalUtility.m; sourceTree = "<group>"; };
 		9DA768381BEEA36B00063A6C /* YFObjectionCarProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFObjectionCarProvider.h; sourceTree = "<group>"; };
@@ -313,6 +326,39 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		9DA1D6371C15235C00EEEC98 /* JSPatchOnline */ = {
+			isa = PBXGroup;
+			children = (
+				9DA1D63B1C15250500EEEC98 /* patch */,
+				9DA1D6381C15237D00EEEC98 /* YFJSPatchOnlineViewController.h */,
+				9DA1D6391C15237D00EEEC98 /* YFJSPatchOnlineViewController.m */,
+			);
+			path = JSPatchOnline;
+			sourceTree = "<group>";
+		};
+		9DA1D63B1C15250500EEEC98 /* patch */ = {
+			isa = PBXGroup;
+			children = (
+				9DA1D6471C15297B00EEEC98 /* YFPatchRequest.h */,
+				9DA1D6481C15297B00EEEC98 /* YFPatchRequest.m */,
+				9DA1D63C1C15250500EEEC98 /* YFPatchModel.h */,
+				9DA1D63D1C15250500EEEC98 /* YFPatchModel.m */,
+				9DA1D63E1C15250500EEEC98 /* YFPatchViewModel.h */,
+				9DA1D63F1C15250500EEEC98 /* YFPatchViewModel.m */,
+			);
+			path = patch;
+			sourceTree = "<group>";
+		};
+		9DA1D6421C15266D00EEEC98 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				9DA1D6431C15266D00EEEC98 /* YFAppModule.h */,
+				9DA1D6441C15266D00EEEC98 /* YFAppModule.m */,
+				9DA1D6451C15266D00EEEC98 /* YFAppModuleDelegate.h */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
 		9DA768251BEDD65E00063A6C /* Objection */ = {
 			isa = PBXGroup;
 			children = (
@@ -324,8 +370,6 @@
 				9DA7682D1BEE12FB00063A6C /* YFObjectionEngine.m */,
 				9DA7682F1BEE1A8800063A6C /* YFObjectionBrakes.h */,
 				9DA768301BEE1A8800063A6C /* YFObjectionBrakes.m */,
-				9DA768321BEE8E6000063A6C /* YFObjectionAppModule.h */,
-				9DA768331BEE8E6000063A6C /* YFObjectionAppModule.m */,
 				9DA768351BEE954600063A6C /* YFObjectionExternalUtility.h */,
 				9DA768361BEE954600063A6C /* YFObjectionExternalUtility.m */,
 				9DA768381BEEA36B00063A6C /* YFObjectionCarProvider.h */,
@@ -512,6 +556,7 @@
 		9DEC92E11BB1468600718A41 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9DA1D6421C15266D00EEEC98 /* app */,
 				9DEC92E51BB1468600718A41 /* AppDelegate.h */,
 				9DEC92E61BB1468600718A41 /* AppDelegate.m */,
 				9DEC92F11BB1468600718A41 /* Images.xcassets */,
@@ -555,6 +600,7 @@
 		9DEC93181BB15C5A00718A41 /* samples */ = {
 			isa = PBXGroup;
 			children = (
+				9DA1D6371C15235C00EEEC98 /* JSPatchOnline */,
 				9DD09ED01C0D698A0046F719 /* ALAssetsLibrary+CustomPhotoAlbum */,
 				9DD09EC91C0C162E0046F719 /* FXForms */,
 				9D25FCA31C01B81300AAB86E /* react */,
@@ -827,6 +873,7 @@
 				9DE39DEE1BD7A2580054A79B /* YFMVVMPostViewController.m in Sources */,
 				9DE39DE11BD791940054A79B /* YFCategoryArticleListModel.m in Sources */,
 				9DEC93221BB160DF00718A41 /* YFAutoLayoutCellModel.m in Sources */,
+				9DA1D6491C15297B00EEEC98 /* YFPatchRequest.m in Sources */,
 				9DE810221BCE5FFC00112404 /* YFArticleModel.m in Sources */,
 				9DEC92E71BB1468600718A41 /* AppDelegate.m in Sources */,
 				9DA768311BEE1A8800063A6C /* YFObjectionBrakes.m in Sources */,
@@ -846,7 +893,6 @@
 				9DA768281BEDD67600063A6C /* YFObjectionViewController.m in Sources */,
 				9DEC931C1BB15C8B00718A41 /* YFAutoLayoutCellViewController.m in Sources */,
 				9DE8104F1BD4CE1500112404 /* YFRACViewController.m in Sources */,
-				9DA768341BEE8E6000063A6C /* YFObjectionAppModule.m in Sources */,
 				9DEC931F1BB1604000718A41 /* YFAutoLayoutCell.m in Sources */,
 				9DE80FFB1BCDE7D900112404 /* YFXibDemoViewController.m in Sources */,
 				9DE221FE1BC8B39F00724A97 /* UITableView+FDTemplateLayoutCell.m in Sources */,
@@ -855,22 +901,26 @@
 				9DE39DEB1BD7A23F0054A79B /* YFMVVMPostListViewController.m in Sources */,
 				9DE80FE81BCCDBDE00112404 /* YFPatternModel.m in Sources */,
 				9DE80FEB1BCCDCF600112404 /* YFArticleCollection.m in Sources */,
+				9DA1D6401C15250500EEEC98 /* YFPatchModel.m in Sources */,
 				9D02E8911BFB110100227E40 /* YFKiwiCar.m in Sources */,
 				9DD09ED61C0D69BE0046F719 /* YFCustomPhotoAlbumViewController.m in Sources */,
 				9DE39DE71BD7939B0054A79B /* YFBlogListViewModel.m in Sources */,
 				9DA768801BF185D800063A6C /* YFJSPatchTsetViewController.m in Sources */,
+				9DA1D6461C15266D00EEEC98 /* YFAppModule.m in Sources */,
 				9DE39DE41BD793670054A79B /* YFBlogDetailViewModel.m in Sources */,
 				9DE80FF21BCDE5AD00112404 /* YFComponent.m in Sources */,
 				9DA7682E1BEE12FB00063A6C /* YFObjectionEngine.m in Sources */,
 				9DEF7AAC1BC2B44700E4B473 /* YFAutoTransViewController.m in Sources */,
 				9DEC92EA1BB1468600718A41 /* iOS122.xcdatamodeld in Sources */,
 				9DEC92E41BB1468600718A41 /* main.m in Sources */,
+				9DA1D63A1C15237D00EEEC98 /* YFJSPatchOnlineViewController.m in Sources */,
 				9DA768371BEE954600063A6C /* YFObjectionExternalUtility.m in Sources */,
 				9D5C66F21BE0D49100D182F8 /* YFAPIManager.m in Sources */,
 				9DE8102C1BD0ED9200112404 /* YFMVCPostViewController.m in Sources */,
 				9DEF7AAF1BC2EEF100E4B473 /* YFAutoTransView.m in Sources */,
 				9D25FCA91C01BD7400AAB86E /* YFReactViewController.m in Sources */,
 				9D5C66FD1BE224C400D182F8 /* YFUserModel.m in Sources */,
+				9DA1D6411C15250500EEEC98 /* YFPatchViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

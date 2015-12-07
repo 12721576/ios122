@@ -74,6 +74,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PINCache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-iOS122Tests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -107,17 +112,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1784EB6D967B3F0CAB8341DCDA839DAF</key>
+		<key>08F1E3F62F778EBC6D22F9E2B0FD86E4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>1C55783D561F5A62C541C6046C0B124E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>21C004BF899E123FDE4329A959C19711</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -133,6 +133,16 @@
 			<true/>
 		</dict>
 		<key>2F5FF057E47D9C8790E025CED0259180</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3255A6F4F57C664F0904C2D8C2A4349F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3A757CE876ED2BA834B2F39F4B09949E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -162,12 +172,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>79469CBF9271EF75C575F818AEE12ABF</key>
+		<key>7AE61E8C610008A64C61A082255D0E90</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7AE61E8C610008A64C61A082255D0E90</key>
+		<key>7E8CD48DBAF1AEC7739EE2EC6BFD1969</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -187,12 +197,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DA25FDE1017A4EAD5CD688469BA9EDE4</key>
+		<key>DBC9A0AF6D4571D059D2AF2422F2BD6E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DBC9A0AF6D4571D059D2AF2422F2BD6E</key>
+		<key>E5BD7DB5429C9BFBBE579170D8516936</key>
 		<dict>
 			<key>primary</key>
 			<true/>

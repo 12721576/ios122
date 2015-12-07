@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2A199C67B396863C7AE55125'
+               BlueprintIdentifier = '1AB32E69E7EFB4CB97A3838A'
                BlueprintName = 'Objection'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libObjection.a'>

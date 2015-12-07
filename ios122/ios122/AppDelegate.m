@@ -8,8 +8,7 @@
 
 #import "AppDelegate.h"
 #import "YFHomeViewController.h"
-#import <Objection.h>
-#import "YFObjectionAppModule.h"
+#import "YFAppModule.h"
 
 @interface AppDelegate ()
 
@@ -37,7 +36,11 @@
 //    [JSObjection setDefaultInjector:injector];
 
     /* 使用自定义模块的全局注射器. */
-    JSObjectionInjector *injector = [JSObjection createInjector:[[YFObjectionAppModule alloc] init]];
+//    JSObjectionInjector *injector = [JSObjection createInjector:[[YFObjectionAppModule alloc] init]];
+//    [JSObjection setDefaultInjector:injector];
+    
+    /* 真正使用的注射器. */
+    JSObjectionInjector *injector = [JSObjection createInjector:[[YFAppModule alloc] init]];
     [JSObjection setDefaultInjector:injector];
     
     return YES;
