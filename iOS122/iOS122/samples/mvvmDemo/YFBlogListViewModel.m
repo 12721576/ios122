@@ -32,7 +32,6 @@
     self = [super init];
     
     if (nil != self) {
-        
         // 设置 self.category 与 model.category 的关联.
         [RACObserve(model, category) subscribeNext:^(NSString * categoryName) {
             self.category = categoryName;
@@ -62,14 +61,16 @@
     }];
     
     // 接口完整地址,肯定是受分类和页面的影响的.但是因为分类的变化最终会通过分页的变化来体现,所以此处仅需监测分页的变化情况即可.
-    [RACObserve(self, nextPageNumber) subscribeNext:^(NSNumber * nextPageNumber) {
+    [RACObserve(self, nextPageNumber)  subscribeNext:^(NSNumber * nextPageNumber) {
         NSString * path = [NSString stringWithFormat: @"http://www.ios122.com/find_php/index.php?viewController=YFPostListViewController&model[category]=%@&model[page]=%@", self.category, nextPageNumber];
         
         self.requestPath = path;
     }];
     
     // 每次数据完整接口变化时,必然要同步更新 blogListItemViewModels 的值.
-    [RACObserve(self, requestPath) subscribeNext:^(NSString * path) {
+    [[RACObserve(self, requestPath) filter:^BOOL(id value) {
+        return value;
+    }] subscribeNext:^(NSString * path) {
         /**
          *  分两种情况: 如果是变为0,说明是重置数据;如果是大于0,说明是要加载更多数据;不处理向上翻页的情况.
          */

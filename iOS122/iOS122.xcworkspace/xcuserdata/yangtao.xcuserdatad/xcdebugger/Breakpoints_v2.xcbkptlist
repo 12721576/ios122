@@ -521,7 +521,7 @@
                   moduleName = "iOS122"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yangtao/Documents/ios122/iOS122/Pods/SDWebImage/SDWebImage/SDWebImageManager.m"
-                  timestampString = "471151969.968453"
+                  timestampString = "472012768.64162"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "216"
@@ -536,7 +536,7 @@
                   moduleName = "iOS122"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yangtao/Documents/ios122/iOS122/Pods/SDWebImage/SDWebImage/SDWebImageManager.m"
-                  timestampString = "471151969.968727"
+                  timestampString = "472012768.641811"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "216"
@@ -585,7 +585,7 @@
                   moduleName = "iOS122"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yangtao/Documents/ios122/iOS122/Pods/SDWebImage/SDWebImage/SDWebImageManager.m"
-                  timestampString = "471151969.970881"
+                  timestampString = "472012768.644275"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "224"
@@ -600,7 +600,7 @@
                   moduleName = "iOS122"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yangtao/Documents/ios122/iOS122/Pods/SDWebImage/SDWebImage/SDWebImageManager.m"
-                  timestampString = "471151969.971164"
+                  timestampString = "472012768.644496"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "224"
@@ -615,7 +615,7 @@
                   moduleName = "iOS122"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yangtao/Documents/ios122/iOS122/Pods/SDWebImage/SDWebImage/SDWebImageManager.m"
-                  timestampString = "471151969.971494"
+                  timestampString = "472012768.644661"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -630,7 +630,7 @@
                   moduleName = "iOS122"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yangtao/Documents/ios122/iOS122/Pods/SDWebImage/SDWebImage/SDWebImageManager.m"
-                  timestampString = "471151969.971764"
+                  timestampString = "472012768.644832"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -645,7 +645,7 @@
                   moduleName = "iOS122"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yangtao/Documents/ios122/iOS122/Pods/SDWebImage/SDWebImage/SDWebImageManager.m"
-                  timestampString = "471151969.972035"
+                  timestampString = "472012768.644998"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "224"
@@ -660,7 +660,7 @@
                   moduleName = "iOS122"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yangtao/Documents/ios122/iOS122/Pods/SDWebImage/SDWebImage/SDWebImageManager.m"
-                  timestampString = "471151969.972291"
+                  timestampString = "472012768.645218"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -675,7 +675,7 @@
                   moduleName = "iOS122"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yangtao/Documents/ios122/iOS122/Pods/SDWebImage/SDWebImage/SDWebImageManager.m"
-                  timestampString = "471151969.97256"
+                  timestampString = "472012768.645512"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -683,198 +683,6 @@
                   offsetFromSymbolStart = "16">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iOS122/samples/JSPatchOnline/patch/YFPatchViewModel.m"
-            timestampString = "471150619.50214"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "-awakeFromObjection"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iOS122/samples/JSPatchOnline/patch/YFPatchRequest.m"
-            timestampString = "471151968.829678"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "-mcVirtualPatchs"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iOS122/samples/JSPatchOnline/patch/YFPatchRequest.m"
-            timestampString = "471151968.829678"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "-mcVirtualPatchs"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iOS122/samples/JSPatchOnline/patch/YFPatchRequest.m"
-            timestampString = "471151808.796446"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "-awakeFromObjection"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iOS122/samples/JSPatchOnline/patch/YFPatchViewModel.m"
-            timestampString = "471151859.519097"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "-awakeFromObjection"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[YFPatchViewModel awakeFromObjection]"
-                  moduleName = "iOS122"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yangtao/Documents/ios122/iOS122/iOS122/samples/JSPatchOnline/patch/YFPatchViewModel.m"
-                  timestampString = "471151969.979524"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "80">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__38-[YFPatchViewModel awakeFromObjection]_block_invoke"
-                  moduleName = "iOS122"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yangtao/Documents/ios122/iOS122/iOS122/samples/JSPatchOnline/patch/YFPatchViewModel.m"
-                  timestampString = "471151969.979771"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "56">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iOS122/samples/JSPatchOnline/patch/YFPatchViewModel.m"
-            timestampString = "471151873.930105"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "210"
-            endingLineNumber = "210"
-            landmarkName = "-mcFetchLatestPatchs"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[YFPatchViewModel mcFetchLatestPatchs]"
-                  moduleName = "iOS122"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yangtao/Documents/ios122/iOS122/iOS122/samples/JSPatchOnline/patch/YFPatchViewModel.m"
-                  timestampString = "471151969.980958"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "210"
-                  endingLineNumber = "210"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__39-[YFPatchViewModel mcFetchLatestPatchs]_block_invoke"
-                  moduleName = "iOS122"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yangtao/Documents/ios122/iOS122/iOS122/samples/JSPatchOnline/patch/YFPatchViewModel.m"
-                  timestampString = "471151969.981156"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "210"
-                  endingLineNumber = "210"
-                  offsetFromSymbolStart = "56">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iOS122/samples/JSPatchOnline/patch/YFPatchViewModel.m"
-            timestampString = "471151887.405895"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "-awakeFromObjection"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iOS122/samples/JSPatchOnline/patch/YFPatchViewModel.m"
-            timestampString = "471151890.302309"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "-awakeFromObjection"
-            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -899,13 +707,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "iOS122/samples/JSPatchOnline/patch/YFPatchViewModel.m"
-            timestampString = "471151895.666198"
+            filePath = "iOS122/samples/mvvmDemo/YFBlogDetailViewModel.m"
+            timestampString = "472012465.820726"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "214"
-            endingLineNumber = "214"
-            landmarkName = "-mcFetchLatestPatchs"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "-setup"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -915,13 +723,141 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "iOS122/samples/JSPatchOnline/patch/YFPatchViewModel.m"
-            timestampString = "471151899.548309"
+            filePath = "iOS122/samples/mvvmDemo/YFBlogDetailViewModel.m"
+            timestampString = "472012522.749437"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "213"
-            endingLineNumber = "213"
-            landmarkName = "-mcFetchLatestPatchs"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "-setup"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS122/samples/mvvmDemo/YFBlogDetailViewModel.m"
+            timestampString = "472012525.382825"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "-setup"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__30-[YFBlogDetailViewModel setup]_block_invoke_2139"
+                  moduleName = "iOS122"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangtao/Documents/ios122/iOS122/iOS122/samples/mvvmDemo/YFBlogDetailViewModel.m"
+                  timestampString = "472012768.652997"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__30-[YFBlogDetailViewModel setup]_block_invoke_3"
+                  moduleName = "iOS122"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangtao/Documents/ios122/iOS122/iOS122/samples/mvvmDemo/YFBlogDetailViewModel.m"
+                  timestampString = "472012768.653201"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS122/samples/mvvmDemo/YFBlogListViewModel.m"
+            timestampString = "472012767.509898"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-setup"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS122/samples/mvvmDemo/YFBlogListViewModel.m"
+            timestampString = "472012765.314368"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "-setup"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__28-[YFBlogListViewModel setup]_block_invoke_2"
+                  moduleName = "iOS122"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangtao/Documents/ios122/iOS122/iOS122/samples/mvvmDemo/YFBlogListViewModel.m"
+                  timestampString = "472012768.654972"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "356">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__28-[YFBlogListViewModel setup]_block_invoke_3"
+                  moduleName = "iOS122"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangtao/Documents/ios122/iOS122/iOS122/samples/mvvmDemo/YFBlogListViewModel.m"
+                  timestampString = "472012768.655169"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS122/samples/mvvmDemo/YFBlogListViewModel.m"
+            timestampString = "472012889.63392"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "-setup"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

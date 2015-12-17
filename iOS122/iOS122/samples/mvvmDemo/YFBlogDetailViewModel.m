@@ -53,14 +53,18 @@
     self.httpClient.responseSerializer = [AFJSONResponseSerializer serializer];
     
     // 接口完整地址,肯定是受id影响.
-    [RACObserve(self, blogId) subscribeNext:^(NSString * blogId) {
+    [[RACObserve(self, blogId) filter:^BOOL(id value) {
+        return value;
+    }] subscribeNext:^(NSString * blogId) {
         NSString * path = [NSString stringWithFormat: @"http://www.ios122.com/find_php/index.php?viewController=YFPostViewController&model[id]=%@", blogId];
         
         self.requestPath = path;
     }];
     
     // 每次完整的数据接口变化时,必然要同步更新 self.content 的值.
-    [RACObserve(self, requestPath) subscribeNext:^(NSString * path) {
+    [[RACObserve(self, requestPath) filter:^BOOL(id value) {
+        return value;
+    }] subscribeNext:^(NSString * path) {
         [[self.httpClient rac_GET:path parameters:nil] subscribeNext:^(RACTuple *JSONAndHeaders) {
             // 使用MJExtension将JSON转换为对应的数据模型.
             YFArticleModel * model = [YFArticleModel objectWithKeyValues:JSONAndHeaders.first];
