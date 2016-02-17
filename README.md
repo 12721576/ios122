@@ -14,6 +14,6 @@
 
 ## 扫码加 微信群/QQ群 (非工作时间欢迎来群切磋)
 
-![wechat](wechat.png)
+![wechat](wechat.jpg)
 
 ![qq](1443002712802.png)
