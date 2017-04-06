@@ -1,6 +1,6 @@
 # iOS122 示例应用
 
-[博客主站: iOS122 --- 有态度的iOS开发资源聚合网站](http://www.ios122.com)
+[博客主站: iOS122 --- 有态度的iOS开发资源聚合网站](https://my.oschina.net/ios122/blog?sort=time&&temp=1491474164354)
 
 ## 目的
 
